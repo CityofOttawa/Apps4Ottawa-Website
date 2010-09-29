@@ -1,0 +1,14 @@
+<div class="secondary intro-box action apps-callout">
+	<div class="intro-box-wrapper clearfix">
+	<% if Apps4ottawa::Application::ALLOW_APP_SUBMISSION == true %>
+		<p class="desc"><%=t :intro_apps %></p>
+		<a href="/<%= I18n.locale %>/apps/new" class="btn btn-alt"><%=t :intro_apps_button %></a>
+	<% else %>
+		<p class="desc"><%=t :intro_apps %></p>
+	<% end %>
+	</div>
+</div>
+<div class="primary apps-summary">
+	<h1 id="summary"><%=t :apps_heading %></h1>
+	<p><%=t :apps_blurb %></p>
+</div>

@@ -1,0 +1,23 @@
+<li class="hentry">
+  <% unless app.screenshot_file_name.nil? %>
+  <a href="/<%= I18n.locale %>/apps/<%=h app.id %>" class="hentry-item has-screenshot" target="_blank" style="background-image:url('<%=h app.screenshot.url(:thumb) %>')">
+  <% else %>
+  <a href="/<%= I18n.locale %>/apps/<%=h app.id %>" target="_blank" class="hentry-item">
+  <% end %>
+    <span class="hentry-wrapper">
+      <strong class="entry-title"><%=h app.name %></strong>
+      <span class="author"><%=h app.user.name %></span>
+      <span class="desc"><%=h snippet(app.description, 20) %></span>
+      <span class="comments" title="<%=h app.app_comments.size %> <%=h (app.app_comments.size != 1) ? t(:commented_app_plural) : t(:commented_app) %>"><%=h app.app_comments.size %></span>
+      <span class="likes" title="<%=h app.rating %> <%=h (app.rating != 1) ? t(:voted_app_plural) : t(:voted_app) %>"><%=h app.rating %></span>
+    </span>
+  </a>
+  <% if current_user && (app.user == current_user || current_user.admin?) %>
+    <div class="user-tools">
+      <a href="/<%= I18n.locale %>/apps/<%=h app.id %>/edit" class="edit"><%=t :edit %></a> · 
+      <%= form_for(app, :url => { :controller => 'apps', :action => 'destroy', :locale => I18n.locale, :id => app.id }, :html => { :class => 'inline', :method => 'delete' }) do |f| %>
+        <button type="submit" class="btn-simple delete"><%=t :delete %></button>
+      <% end %>
+    </div>
+  <% end %>
+</li>

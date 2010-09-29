@@ -1,0 +1,26 @@
+<% content_for :title do %>
+  <%=t :'devise.labels.resend_unlock' %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="primary">
+    <h1 id="summary"><%=t :'devise.labels.resend_unlock' %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <%= form_for resource_name, resource, :url => unlock_path(resource_name) do |f| %>
+      <%= f.error_messages %>
+      <fieldset class="field-group">
+        <div class="field field-block">
+          <%= f.label :email, I18n.t(:'devise.labels.email') %>
+          <%= f.text_field :email %>
+        </div>
+      </fieldset>
+      <div class="button-group">
+        <%= f.submit t(:'devise.labels.resend_unlock'), :class => 'btn' %>
+      </div>
+    <% end %>
+  </div>
+</div>

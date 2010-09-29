@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user: dude
+  comment: This is lame
+  app: example_app
+
+two:
+  user: dudette
+  comment: This is awesome
+  app: example_app

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+an_idea:
+  name: An idea
+  description: Some idea
+  user: dude
+
+another_idea:
+  name: Another idea
+  description: Some idea
+  user: dudette

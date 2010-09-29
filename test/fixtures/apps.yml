@@ -1,0 +1,10 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+example_app:
+  name: An example app
+  description: An app description
+  link: http://awesome-app.com
+  user: dude
+  category_id: 1
+  data_sets: A data set
+  resident_value: Provides awesomeness

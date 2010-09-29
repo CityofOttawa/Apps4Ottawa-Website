@@ -1,0 +1,20 @@
+<% content_for :title do %>
+  <%=t :ideas_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <%= render :partial => "shared/ideas_banner" %>
+<% end %>
+
+<% if @ideas.size > 0 %>
+  <ol class="hfeed multi">
+    <% @ideas.each do |idea| %>
+      <%= render :partial => 'shared/idea_card', :locals => { :idea => idea } %>
+    <% end %>
+  </ol>
+<% else %>
+  <div class="no-items">
+    <h2><%=t :no_ideas_blurb %></h2>
+    <a href="/<%= I18n.locale %>/ideas/new" class="btn btn-alt"><%=t :intro_ideas_button %></a>
+  </div>
+<% end %>

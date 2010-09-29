@@ -1,0 +1,495 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  other_locale: "fr"
+  other_language: "Français"
+
+  dollar_before: "$"
+  dollar_after: ""
+
+  home_title: "Apps4Ottawa—An Open Data App Contest"
+  title: "Apps4Ottawa"
+  city_ottawa: "City of Ottawa"
+
+  home: "Home"
+  about: "About"
+  data: "Data"
+  ideas: "Ideas"
+  apps: "Apps"
+  categories: "Categories"
+  category: "Category"
+  important_dates: "Important Dates"
+  
+  prizes: "Prizes"
+  prize: "Prize"
+  judges: "Judges"
+  faq: "FAQ"
+  rules: "Official Rules"
+  terms: "Terms of Use"
+  privacy: "Privacy Statement"
+  count: "Count"
+  total: "Total"
+
+  title_1: "Ottawa"
+  title_2: "Open Data"
+  title_3: "App Contest"
+  prizes_amount: "$50 000 in prizes"
+  desc: "Open Data is a world-wide movement encouraging governments to<br><strong>make public data freely available</strong>."
+  deadline: "Ottawa’s first application creation contest has wrapped up. Congratulations to all our winners."
+
+  intro_apps: "Want to see the apps that were submitted?"
+  intro_apps_submit: "Enter your app and you could"
+  intro_apps_button: "Enter&nbsp;an&nbsp;App"
+  intro_view_apps_button: "View Submissions"
+
+  intro_win_prize: "win a prize"
+
+  intro_ideas: "Have a fantastic idea for using Ottawa’s open data?"
+  intro_ideas_submit: "Share your idea and you could"
+  intro_ideas_button: "Share&nbsp;an&nbsp;Idea"
+
+  recent_tweets: "Recent Tweets"
+  loading_tweets: "Loading recent tweets…"
+  recent_ideas: "Recent Ideas"
+
+  go_to_app: "Go To App"
+
+  about_title: "About"
+  about_commitment: "The City of Ottawa is committed to improving citizen engagement, and enhancing transparency and accountability by providing public access to its data. To encourage the meaningful and productive use of this data, the City has launched an Open Data contest."
+  about_contest: "The contest seeks to reward developers of the most useful, creative, and effective web-based applications and tools, to allow people to easily make use of the City of Ottawa’s data."
+
+  category_fun: "Having Fun in Ottawa"
+  category_around: "Getting Around"
+  category_green: "Green Environment/Sustainability"
+  category_community: "Community Building"
+  category_economic: "Economic Development"
+  categories_body: "The five categories have been designed to address diverse aspects of a healthy community."
+
+  compeititon_date_title: "Competition Entry Period"
+  compeititon_date: "5:00pm September 29, 2010 – 5:00pm January 3, 2011 EST"
+  public_date_title: "Public Voting Period"
+  public_date: "12:00pm January 4, 2010 – 5:00pm January 28, 2011 EST"
+  judging_date_title: "Judging Period Begins"
+  judging_date: "January 4, 2011"
+  awards_date_title: "Awards Ceremony"
+  awards_date: "February 15, 2011"
+
+  apps_title: "Apps"
+  apps_edit_title: "Edit App"
+  apps_edit: "Edit App"
+  apps_new_title: "Enter an App"
+  apps_heading: "App Submissions"
+  apps_blurb: "Ottawa’s first application creation contest has wrapped up.  Congratulations to all our winners.  For more information on Ottawa’s continuing Open Government and Open Data initiative visit <a href='http://www.ottawa.ca/online_services/opendata/index_en.html'>http://www.ottawa.ca/online_services/opendata/index_en.html</a>."
+  name: "App Name"
+  link: "Link"
+  come_back_vote: "Come back Jan. 4th to vote!"
+  no_apps_blurb: "Be the first to enter an app!"
+
+  ideas_title: "Ideas"
+  ideas_new_title: "Share an Idea"
+  ideas_edit_title: "Edit Idea"
+  ideas_edit: "Edit Idea"
+  ideas_heading: "Share Your Ideas"
+  ideas_blurb: "Ottawa’s first application creation contest has wrapped up.  Congratulations to all our winners.  For more information on Ottawa’s continuing Open Government and Open Data initiative visit <a href='http://www.ottawa.ca/online_services/opendata/index_en.html'>http://www.ottawa.ca/online_services/opendata/index_en.html</a>."
+  name: "Idea Name"
+  no_ideas_blurb: "Be the first to share an idea!"
+
+  create: "Create"
+  update: "Update"
+  description: "Description"
+  data_sets: "Data sources used"
+  resident_value: "The value it provides to residents"
+  screenshot: "Screenshot"
+  new_screenshot: "New Screenshot"
+  screenshot_criteria: "(Max 2 megabytes. JPEG, PNG, GIF only)"
+  remove_screenshot: "Remove this screenshot"
+
+  or: "or"
+
+  comments: "Comments"
+  comment: "Comment"
+  to_comment: "to comment"
+
+  vote: "Vote"
+  votes: "Votes"
+  to_vote: "to vote"
+
+  commented_app: "person commented on this app"
+  voted_app: "person voted for this app"
+  commented_idea: "person commented on this idea"
+  voted_idea: "person voted for this idea"
+  commented_app_plural: "people commented on this app"
+  voted_app_plural: "people voted for this app"
+  commented_idea_plural: "people commented on this idea"
+  voted_idea_plural: "people voted for this idea"
+
+  edit: "edit"
+  delete: "delete"
+
+  confirm: "Confirm"
+  
+  winners: "Contest Winners"
+  winners_summary: |
+    <div class='winners'>
+      <span class='entry-title'>Overall Winner:</span>
+        <ul>
+          <li><a href='http://www.apps4ottawa.ca/en/apps/66'>Ottawa Guide</a>&nbsp-&nbsp<span class='author'>Ekwa Jacob Duala-Ekoko</li>
+        </ul>
+      <span class='entry-title'>People's Choice:</span>
+        <ul>
+          <li><a href='http://www.apps4ottawa.ca/en/apps/81'>Where is my bus?</a>&nbsp-&nbsp<span class='author'>Jonathan Rudenberg</li>
+          <li><a href='http://www.apps4ottawa.ca/en/apps/66'>Ottawa Guide</a>&nbsp-&nbsp<span class='author'>Ekwa Jacob Duala-Ekoko</li>
+        </ul>
+      <span class='entry-title'>Student Award:</span>
+        <ul>
+          <li><a href='http://www.apps4ottawa.ca/en/apps/89'>OttawaFun.ca</a>&nbsp-&nbsp<span class='author'>Tyler Pearce</li>
+        </ul>
+      <span class='entry-title'>Having Fun in Ottawa:</span>
+        <ul>
+          <li><b>Gold:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/89'>OttawaFun.ca</a>&nbsp-&nbsp<span class='author'>Tyler Pearce</li>
+          <li><b>Silver:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/78'>Ottawa Pastoral</a>&nbsp-&nbsp<span class='author'>James DeMond</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/33'>Ottawa Dog Park Finder</a>&nbsp-&nbsp<span class='author'>Thomas J Bradley</li>
+        </ul>
+      <span class='entry-title'>Getting Around:</span>
+        <ul>
+          <li><b>Gold:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/45'>Ottawa Enroute</a>&nbsp-&nbsp<span class='author'>Michael Russell</li>
+          <li><b>Silver:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/41'>My Oc Transpo</a>&nbsp-&nbsp<span class='author'>Ali Al-Munayer</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/15'>Ottawa Pools</a>&nbsp-&nbsp<span class='author'>Phillipe Guitard</li>
+          <li><b>Bronze(tie):</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/47'>Ottawa Rinks</a>&nbsp-&nbsp<span class='author'>Phillipe Guitard</li>
+        </ul>
+      <span class='entry-title'>Green Environment/Sustainability:</span>
+        <ul>
+          <li><b>Gold:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/58'>Collection Calendar</a>&nbsp-&nbsp<span class='author'>Alec Mills</li>
+          <li><b>Silver:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/1'>GoLocavore</a>&nbsp-&nbsp<span class='author'>Chris Wise</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/19'>Ottawa Recycles</a>&nbsp-&nbsp<span class='author'>Bill Wilson</li>
+        </ul>
+      <span class='entry-title'>Community Building:</span>
+        <ul>
+          <li><b>Gold:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/85'>Ottawa Biking Problems</a>&nbsp-&nbsp<span class='author'>Alex deVries</li>
+          <li><b>Silver:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/48'>Ottawa Account</a>&nbsp-&nbsp<span class='author'>Fenqiang Zhuang</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/118'>ShinnyApp</a>&nbsp-&nbsp<span class='author'>Shawn French</li>
+        </ul>
+      <span class='entry-title'>Economic Development:</span>
+          <ul>
+            <li><b>Gold:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/66'>Ottawa Guide</a>&nbsp-&nbsp<span class='author'>Ekwa Jacod Duala-Ekoko</li>
+            <li><b>Silver:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/113'>Ottawa Inside Out</a>&nbsp-&nbsp<span class='author'>Samir Al-Battran</li>
+            <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/en/apps/101'>Temporals.com</a>&nbsp-&nbsp<span class='author'>Mike Felepchuk</li>
+          </ul>
+      <span class='entry-title'>Ideas:</span>
+          <ul>
+            <li><a href='http://www.apps4ottawa.ca/en/ideas/38'>Construction Ottawa</a>&nbsp-&nbsp<span class='author'>Magdalena Barys</li>
+            <li><a href='http://www.apps4ottawa.ca/en/ideas/18'>Estimated Bus Location and Time</a>&nbsp-&nbsp<span class='author'>Mohamed Nur</li>
+            <li><a href='http://www.apps4ottawa.ca/en/ideas/53'>Urgent Care!</a>&nbsp-&nbsp<span class='author'>Mike Kelly</li>
+          </ul>
+      <br />
+      For more information on Ottawa’s continuing Open Government and Open Data initiative visit <a href="http://www.ottawa.ca/online_services/opendata/index_en.html">http://www.ottawa.ca/online_services/opendata/index_en.html</a>
+    </div>
+
+  rules_summary: "Summary of Rules"
+  rules_view: "View full contest rules"
+  rules_summary_body: |
+    <p>The contest rules were designed to stimulate creativity and innovation, rather than constrain it. The contest is open to residents of the province of Ontario. City staff will be eligible to enter applications but will not be eligible for monetary prizes.</p>
+    <p>Applicants may enter a software application designed for a mobile handheld device, desktop computer, website, or any other software platform broadly available to the residents of the City of Ottawa.</p>
+    <p>While participants will be encouraged to use at least one data set from the City of Ottawa Open Data Catalogue, they do not have to. The aim of the contest is to generate improvements to the community through the use of applications that use publicly available data; as long as applicants build an application that will enhance the City of Ottawa, they may use any data that is publicly available.</p>
+    <p>Ownership of software applications will remain with the developer of the application.</p>
+    <p>All residents of Ontario over the age of 16 are eligible to enter the contest.</p>
+  rules_body: |
+    <p><em>Contest Rules Modified on December 29, 2010: See sections 3.1.1, 6.2.1, and 11.2.1</em></p>
+    <h2>1. CONTEST PHASES:</h2>
+    <p>1.1 The Apps4Ottawa Contest (“Contest”) is administered by the City of Ottawa (“City”) and consists of the following two phases collectively referred to as the "Contest Period":</p>
+    <ol style="list-style-type:lower-alpha">
+    	<li>The first phase of the Contest begins at 5:00 p.m. EDT on September 29, 2010 and closes at 5:00 p.m. on January 3, 2011, the "Submission Period"); and</li>
+    	<li>The second phase of the Contest begins at 5:00 p.m. EDT on January 4, 2011 and closes at 5:00 p.m. EDT on January 28, 2011 (the "Selection Period").</li>
+    </ol>
+    <p>1.2 During the Submission Period, you may enter online at http://www.apps4ottawa.ca (the "Contest Website") by registering at the Website and:</p>
+    <ol style="list-style-type:lower-alpha">
+    	<li>Completing a submission for an internet based or mobile device based Application designed to enhance the City of Ottawa (each an "Application Submission"); and/or</li>
+    	<li>Submitting an idea/concept for an internet based or mobile device based Application (each an “Application Idea”).</li>
+    </ol>
+    <p>1.3 During the Selection Period, (i) you may vote online for the Application that, in your opinion, best improves the community, and (ii) at the same time, a panel of judges (the "Panel") will review and evaluate all Applications submitted during the Submission Period and will select Contest winners based on this review and evaluation.</p>
+    <h2>2. HOW TO PARTICIPATE: NO PURCHASE NECESSARY</h2>
+    <p>2.1 During the Contest Period, visit the Contest Website and register. Registration is free. To register you must complete the registration form provided and include your first and last name, business name (if applicable), complete street address including postal code and e-mail address. You must also indicate on the registration form whether or not you are a student (“Student”) as defined as an individual who is, at the time of registering at the Contest website, enrolled in at least one course at an educational institution in Ontario that is either a Public or Private College, Community College, University or Secondary School. City employees are required to self-identify and are not eligible to be considered for any prizes or give-away gifts. All requested registration information must be provided and be truthful and accurate for Contest entries to be valid.</p>
+    <p>2.2 During the Submission Period and after you have registered and logged into the Contest Website you will be able to enter an Application Submission and/or Application Idea. There is no limit to the number of Application Ideas and/or Application Submissions that you may enter during the Contest Period.</p>
+    <p>2.3 During the Selection Period, individuals registered and logged into the Contest Website may vote online for the Application that, in their opinion, is the best Application Submission for the City Ottawa. Each individual is permitted only one vote. Non-contestants in the Competition interested in the competition are encouraged to register and vote. Public voting will determine the winner of the People’s Choice Award.</p>
+    <p>2.4 Entries will be deemed to be made by the authorized account holder of the e-mail address submitted at the time of entry. The authorized account holder is the natural person who is assigned an email address by an Internet service provider or other organization (e.g. business, educational institution, etc.) that is responsible for assigning the email addresses for the domain associated with the submitted email address. Individuals may be required to provide the City with proof that he or she is the authorized account holder of the email address.</p>
+    <h2>3. ELIGIBILITY</h2>
+    <p>3.1 To be eligible to participate in the Contest you must: (a) be an individual who is a legal resident of Ontario and who has reached the age of 18 at the time of registering on the Contest Website; and (b) have a valid email account registered in your name as described above in section 2.4.</p>
+    <p>3.1.1 Despite the minimum age to participate in the Contest that is stipulated in section 3.1 above, an individual who is a legal resident of Ontario and has reached the age of 16 or 17 at the time of registering on the Contest Website is eligible to participate in the Contest provided the individual complies with all other requirements of these Official Rules. In particular, individuals aged 16 or 17 year of age and their parent/guardian must comply with sections 6.2.1 and 11.2.1 of the Official Rules in order to be verified as a winner of a cash prize.</p>
+    <p>3.2 Members of the Panel are not eligible to enter an Application Submission, Application Idea, or be considered for any give-away gifts or prizes.</p>
+    <p>3.3 City employees are not eligible to be considered for or receive any prizes or give-away gifts in this Contest but may submit Application Ideas and Application Submissions. The City Chief Information Officer will provide a non-monetary recognition of the best City Employee Application Submission.</p>
+    <p>3.4 All personal and other information required by and supplied to the City for the purpose of participating in this Contest must be truthful, complete, accurate and in no way misleading. The City, in its sole discretion, reserves the right to disqualify an individual from the Contest should any individual participating in the Contest at any stage supply untruthful, incomplete, inaccurate or misleading information and/or personal details.</p>
+    <p>3.5 The City will have the right at any time to require, from any individual participating in this Contest, proof of identity and/or eligibility to participate. Failure to provide proof within a reasonable time could result in disqualification of the individual from the Contest.</p>
+    <h2>4. HOW TO ENTER AN APPLICATION SUBMISSION AND APPLICATION SUBMISSION REQUIREMENTS</h2>
+    <p>4.1 An Application Submission Form must be submitted through the Contest Website for each Application entered in the Contest. The Application Submission Form is available after you register and log into the Contest Website and may be completed in either French or English. All Application Submission Forms will be retained by the City. Each Application Submission Form must contain the following information:</p>
+    <ol style="list-style-type:lower-alpha">
+    	<li>
+    		Category the Application is to be considered. The Contestant must select one of the following five categories:
+    		<table class="table-alt">
+    			<thead>
+    				<tr>
+    					<th scope="col">Category</th>
+    					<th scope="col">Description</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td>Category 1: Having Fun in Ottawa</td>
+    					<td>Applications aimed at leisure and fun in Ottawa, for example using restaurant data.</td>
+    				</tr>
+    				<tr>
+    					<td>Category 2: Getting Around</td>
+    					<td>Transit and/or Transportation related applications designed to make it easier for people to get around the city, for example using bicycle path data.</td>
+    				</tr>
+    				<tr>
+    					<td>Category 3: Green Environment/Sustainability</td>
+    					<td>Applications designed to help highlight our natural environment, for example using green-space locations data.</td>
+    				</tr>
+    				<tr>
+    					<td>Category 4: Community Building</td>
+    					<td>Applications designed to encourage people to connect with others and improve the quality of life in Ottawa, for example using voting locations data.</td>
+    				</tr>
+    				<tr>
+    					<td>Category 5: Economic Development</td>
+    					<td>Applications designed to stimulate economic growth and development in Ottawa, for example using tourism information.</td>
+    				</tr>
+    			</tbody>
+    		</table>
+    	</li>
+    	<li>Name of Application;</li>
+    	<li>Descriptive summary of the purpose of the Application and how it works;</li>
+    	<li>Description of the data used by the Application; and</li>
+    	<li>a working URL where the Application will be accessible as of the start of the Selection Period with clear instructions for accessing the Application.</li>
+    </ol>
+    <p>4.2 Your Application Submission may be for smart phones, mobile devices, or PC computers. If any functionality or text of an Application is in a language other than English or French, the Application Submission must be accompanied by an English or French translation of that text. Applications are allowed and recommended to use, but do not need to use a dataset from the City's Open Data Catalogue. Applications are required to use publicly available data in order to be eligible to win a prize. The City’s Open Data Catalogues may be found at: <a href="http://www.ottawa.ca/online_services/opendata" rel="external">http://www.ottawa.ca/online_services/opendata</a>.</p>
+    <p>4.3 After the close of the Submission Period and up until the end of the Selection Period, you are not permitted to make or allow to be made any changes or alterations to Application(s) that you submit.</p>
+    <p>4.4 Your Application must be hosted and publicly available on your website or a third-party website as of the start of the Selection Period up to and including the end of the Selection Period for public voting and judging purposes. The City encourages you to maintain your application for a period of 6 months following the Contest Period. Contest Winners, in consideration of being selected as a Contest winner, must agree to make their winning Application publicly available for three months after the date the release referred to in section 11.2 below is signed. All users submitting iPhone applications to this contest must make their applications publicly accessible by the contest entry deadline (same details as above) via the Apple iPhone App Store, found at: <a href="http://www.apple.com/ca/iphone/apps-for-iphone/" rel="external">http://www.apple.com/ca/iphone/apps-for-iphone/</a>. Please ensure that your iPhone application is submitted to the Apple iPhone store well in advance of the contest deadline, as Apple generally delays the availability of submitted applications by one week or more. The City will not extend the contest deadline to accommodate any individual whose iPhone application has not been made public on the Apple iPhone store by the start of the selection period.</p>
+    <p>4.5 You retain ownership of your Application and are permitted to sell the use of your Application commercially after the Contest Period if you choose to do so.</p>
+    <p>4.6 You represent and warrant that: (a) your Application is your original work (b) your Application is free of any known virus or malware (c) any data sets and any other third party material of any kind of nature whatsoever that is incorporated into or was used to create your Application, has been provided to you or obtained by you from the rightful owner with all necessary permissions, rights or licenses, including without limitation the permissions, rights and licenses necessary to grant to the City the licensing rights set out in section 4.5 above; and (c) your Application does not infringe upon the copyrights, trademarks, rights of privacy, publicity or other intellectual property rights of any person or entity.</p>
+    <p>4.7 Application Submissions containing any matter which in the sole discretion of the Panel is deemed as indecent, defamatory, offending, or demonstrates a lack of respect for public morals or conduct, or which adversely effects the public image or reputation of the City will not be accepted and disqualified.</p>
+    <h2>5. HOW TO ENTER AN APPLICATION IDEA AND APPLICATION IDEA REQUIREMENTS</h2>
+    <p>5.1 After registering and logging into the Contest Website, you may enter an Application Idea by completing and submitting the Application Idea Form on the Contest Website. You must include a text description of an idea/concept for an internet based or mobile device based Application in the Application Idea Form.</p>
+    <p>5.2 The City reserves the right to disqualify and remove any Application Ideas that it determines at its sole discretion is not an idea/concept for an internet based or mobile device based Application for the City or is an idea/concept that is identical or nearly identical to an idea/concept already submitted. Application Ideas containing any matter which in the sole discretion of the City is deemed as indecent, defamatory, offending, or demonstrates a lack of respect for public morals or conduct, or which adversely effects the public image or reputation of the City will also be removed and disqualified. For greater clarity, disqualified Applications Ideas will not be considered for any prize.</p>
+    <h2>6. PRIZES</h2>
+    <p>6.1 The prizes will include 20 cash prizes (5 × $5,000; 6 × $2,000; 5 × $1,000; 2 × $3,000, 3 × $500), for a total of $49,500 in cash prizes. Registered users may also be eligible to receive a give-away gift (see section 8.1 below).</p>
+    <p>6.2 All selected Contest winners are solely responsible for use of their prize. Prizes must be accepted as awarded and cannot be transferred, substituted or redeemed for cash. The City reserves the right, in its sole discretion, to substitute any and all of the prizes for prizes of equal value if a prize cannot be awarded as described. The City will not be responsible, however, if factors beyond the City's reasonable control prevent prizes from being awarded. In any such event, no substitute prizes or cash equivalents will be provided. Prizes will only be delivered to the verified winner.</p>
+    <p>6.2.1 Despite the reference in these Official Rules to the City awarding cash prizes to verified prize winners, and in particular the stipulation in section 6.2 that “prizes will only be delivered to the verified winner”, cash prizes won by an individual aged 16 or 17 will be awarded only in the name of his or her parent or legal guardian on behalf of the prize winner.</p>
+    <p>6.3 The City reserves the right not to award prizes, or to award only some of the prizes, if there are not a sufficient number of eligible Contest entries, or if, for any other reason, there is a not a sufficient number of individuals to whom the prizes can be awarded. The City also reserves the right, in its sole discretion, to select an alternate Contest winner from the eligible entries should any selected individual be unable or unwilling to comply with these Official Rules, or otherwise unable or unwilling to accept the offered prize.</p>
+    <h2>7. HOW TO WIN A PANEL PRIZE FOR AN APPLICATION SUBMISSION</h2>
+    <p>7.1 Panel prizes for Applications Submissions are:</p>
+    <table>
+    	<thead>
+    		<tr>
+    			<th scope="col" class="prize">Award levels</th>
+    			<th scope="col">Category 1</th>
+    			<th scope="col">Category 2</th>
+    			<th scope="col">Category 3</th>
+    			<th scope="col">Category 4</th>
+    			<th scope="col">Category 5</th>
+    			<th scope="col">Best Overall Application</th>
+    			<th scope="col">Best Student Application</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<th scope="row">Gold</th>
+    			<td>1 × $5,000</td>
+    			<td>1 × $5,000</td>
+    			<td>1 × $5,000</td>
+    			<td>1 × $5,000</td>
+    			<td>1 × $5,000</td>
+    			<td>1 × $3,000</td>
+    			<td>1 × $3,000</td>
+    		</tr>
+    		<tr>
+    			<th scope="row">Silver</th>
+    			<td>1 × $2,000</td>
+    			<td>1 × $2,000</td>
+    			<td>1 × $2,000</td>
+    			<td>1 × $2,000</td>
+    			<td>1 × $2,000</td>
+    			<td>n/a</td>
+    			<td>n/a</td>
+    		</tr>
+    		<tr>
+    			<th scope="row">Bronze</th>
+    			<td>1 × $1,000</td>
+    			<td>1 × $1,000</td>
+    			<td>1 × $1,000</td>
+    			<td>1 × $1,000</td>
+    			<td>1 × $1,000</td>
+    			<td>n/a</td>
+    			<td>n/a</td>
+    		</tr>
+    	</tbody>
+    </table>
+    <p>7.2 At the start of the Selection Period, the Panel, consisting of one City Official, two members of the business community, two members of the public, and two members of the academic community will evaluate each Application Submission under its respective submission category and will apply the following criteria to each Application Submission:</p>
+    <ol style="list-style-type:lower-alpha">
+    	<li>Usefulness – utility to citizens of Ottawa overall, or any particular demographic of users in Ottawa</li>
+    	<li>Originality – uniqueness and inventive nature of application</li>
+    	<li>Ease of use – the overall usability of the application</li>
+    	<li>Access – ability for the application to be used by the broad array of citizens</li>
+    </ol>
+    <p>7.3 The Panel will select winners of fifteen (15) Category Prizes by applying the criteria in section 7.2 above to determine the three (3) best Application Submissions in each of the five (5) categories. The rankings for each of the five categories are Gold ($5,000), Silver ($2,000), and Bronze ($1,000).</p>
+    <p>7.4 The Panel will select as winner of the Best Overall Application Prize amongst the five Gold Category recipients, as determined by the application of the criteria in 7.2 above. One (1) prize of $3,000 will be awarded for the Best Overall Application. The Best Overall Application prize award will be in addition to the $5,000 Gold Category Prize.</p>
+    <p>7.5 The Panel will select the Best Student Application in accordance with the criteria specified in section 7.2 above. Only Application Submissions from individuals who meet the definition of a Student in section 2.1 above will be considered for this prize. One (1) prize of $3,000 will be awarded for the Best Student Application. An individual who is a Student may also win a Category Prize and/or the Best Overall Application Prize.</p>
+    <h2>8. HOW TO RECEIVE A GIVE-AWAY GIFT FOR ENTERING AN APPLICATION SUBMISSION</h2>
+    <p>8.1 Registered users who enter a valid Application Submission will be eligible to receive a 2 Gigabyte Universal Serial Bus (USB) Flash drive. Within two weeks of the close of the Contest Period, a representative of the City will contact registered users eligible for this give-away gift to arrange to have it delivered or picked-up. Only one (1) give-away gift is available to each registered user who submits one or more Application Submissions.</p>
+    <h2>9. HOW TO WIN THE PEOPLE’S CHOICE PRIZE</h2>
+    <p>9.1 The winner of the People’s Choice Prize will be based solely on the voting of registered visitors to the Contest Website during the Selection Period. The individual who receives the most votes will receive the People’s Choice Award in the amount of $2,000. If there is a tie between two or more Application Submissions, the prize will be split equally amongst the tied individuals. The recipient of the People’s Choice Prize may win other prizes in the Contest.</p>
+    <h2>10. HOW TO WIN AN APPLICATION IDEA PRIZE</h2>
+    <p>10.1 A random draw from all Application Idea submissions will take place on place on January 29, 2010. A Panel member who is a member of the public will, in the presence of the City member of the Panel, draw at random three Application Ideas consecutively amongst all valid Application Ideas received by the City through the Contest Website during the Submission Period. The three (3) individuals whose Idea Submission are drawn will be awarded $500 each. New Application Idea(s) will be drawn in the event that the Panel member draws more than one Application Idea submitted by the same individual. Your chances of winning an Application Idea Prize depend on the number of Application Ideas that you and other individuals submit.</p>
+    <h2>11. NOTIFICATION AND CONFIRMATION OF PRIZE WINNERS</h2>
+    <p>11.1 The City will attempt to contact the winners of Application Submission Panel Prizes, Application Idea Prizes, and the People’s Choice Award for five (5) consecutive working days using the contact information provided through the Contest registration process. If no response is received by the end of that period, another winner will be selected.</p>
+    <p>11.2 Before being confirmed as a prize winner, each individual who satisfies the requirements for their respective prize will be required to execute a legal agreement and release ("Release") that confirms that the individual: (a) is eligible to participate in the Contest; (b) agrees to comply with these Official Rules, (b) accepts the prize(s) as offered; (c) releases each of the City, its servants, agents, employees, contractors, licensees, and assignees from any and all liability for any loss, harm, damages, cost or expense arising out of participation in this Contest, or the acceptance, possession, use or misuse of any prize, including without limitation costs, injuries, losses related to personal injuries, death, damage to, loss or destruction of property, rights of publicity or privacy, defamation or portrayal in a false light, or from any and all claims of third parties arising therefrom; (e) grants to the City the unrestricted right to publish without any further compensation the name, City of residence, photographic image, business name (if applicable), and educational institution that you attend (if applicable) and any website dissemination or broadcast thereof of that individual for the purposes of advertising and promoting the Contest and awarding and publishing the prizes; and (f) agrees to make their winning Application publicly available for three months after the date the Release is signed. The Release document may contain such other terms and conditions as the City, in its sole discretion, may decide. The Release document must be returned to the City by the date indicated on the document or the prize(s) will be forfeited and another Contest entry may be selected.</p>
+    <p>11.2.1 Despite the reference to “prize winner” and “contest winner” throughout these Official Rules and in section 11.2 above in particular, the parent and/or legal guardian of a cash prize winner aged 16 or 17 will be required to execute the Release. For greater clarity, a contestant aged 16 or 17 must ensure that this requirement is met within the time frames specified in the Official Rules, failing which another winner will be selected.</p>
+    <p>11.3 Cash Prize winners must answer a skill-testing mathematical question in order to receive his/her prize.</p>
+    <p>11.5 Individuals who are eligible to receive a give-away gift will be contacted by the City and provided with their Gift as set out in section 6 above.</p>
+    <h2>12 GENERAL CONDITIONS</h2>
+    <p>12.1 No responsibility is assumed by The City for lost, late, misdirected, or incomplete entries or any computer, online telephone or technical malfunctions that may occur in the processing, transmission or receipt of entries.</p>
+    <p>12.2 The City reserves the right at its sole discretion, to disqualify any individual who tampers with the entry process.</p>
+    <p>12.3 You agree to abide by the terms of these official rules and by the decisions of the Panel, which are final and binding on all matters pertaining to this Contest. The City and Panel reserves the right at its sole discretion, to disqualify any individual who fails to comply with one or more terms of the official rules.</p>
+    <p>12.4 The City reserves the right to cancel, modify or suspend the Contest at any time subject to applicable law, if the City determines that the Contest cannot be run as originally planned or if fraud or any other occurrence compromises the fairness or integrity of the Contest.</p>
+    <p>12.5 This Contest is governed by the laws of Canada and the Province of Ontario. All federal, provincial, and local laws and regulations apply.</p>
+    <h2>13 PRIVACY</h2>
+    <p>13.1 By participating in this Contest, you acknowledge that your personal information (including name, address, email address) is being collected by the City for the purposes of operating and administering the Contest and consent to this collection and use of your personal information.</p>
+    <p>13.2 In the event that you are selected as a Contest winner, you consent to your name, City of residence, photographic image, business (if applicable), and educational institution that your attend (if applicable) being disclosed publicly by the City, including without limitation through the Contest Website and other media accessible to the general public.</p>
+    <p>13.3 Your personal information is collected under the authority of sections 8 to 10 of Municipal Act, 2001 SO. 2001, c. 25, for the purposes set out in this sections 13.1 and 13.2. All questions regarding the collection, use and disclosure of your personal information may be directed to the Program Manager, IM/IT Architecture, City, Information Technology Services Department, 613-580-2424, 110 Laurier Avenue West, Ottawa, ON K1P 1J1.</p>
+    <h2>14 LIMITATION OF LIABILITY</h2>
+    <p>14.1 By participating in this contest, you agree to release and hold harmless The City, its parents, subsidiaries, affiliates, directors, officers, employees and agents from any and all liability or any injuries, loss or damage of any kind arising from or in connection with this contest or prize won.</p>
+
+  prizes_body: |
+    <p>The prize structure includes tiered awards (i.e. Gold, Silver, Bronze) for each category and one prize for “Best Overall Application”.  Eligibility for one prize is limited to the student community.</p>
+    <p>The following table outlines the prize structure and participant categories:</p>
+  prizes_table_summary: "Structure of the prizes per prize category. Nineteen different prizes, totally $50 000."
+  gold: "Gold"
+  silver: "Silver"
+  bronze: "Bronze"
+  best_overall: "Best Overall"
+  best_student: "Best Student App"
+  peoples_choice: "People’s Choice"
+  draw_prizes: "Draw Prizes"
+  giveaways: "Giveaways"
+
+  award_criteria: "Award Criteria"
+  award_criteria_body: |
+    <p>Winning selection criteria will focus on attributes including (but not limited to):</p>
+    <ul>
+    <li><strong>Usefulness</strong> - utility to residents of Ottawa overall, or any particular demographic of users in Ottawa</li>
+    <li><strong>Originality</strong> - uniqueness and inventive nature of the application</li>
+    <li><strong>Ease of Use</strong> - the overall usability of the application</li>
+    <li><strong>Access</strong> - ability for the application to be used by a broad array of citizens</li>
+    </ul>
+
+  judges_body: |
+    <p>All qualified entries will be judged by the individuals listed below, based on the categories and criteria outlined below. Judges will determine winners for all awards except the People’s Choice award, which will be determined by public voting on this web site.</p>
+    <p>Our panel of judges includes:</p>
+    <ul>
+    <li>Councilor Wilkinson (Chair of the IT Sub-committee)</li>
+    <li>Eric Marois (La Cite Collegiale)</li>
+    <li>Claude Haw (OCRI)</li>
+    <li>Rick O’Conner (The Ottawa Network)</li>
+    <li>Tracey Lauriault</li>
+    <li>Cameron Wilson</li>
+    <li>Dr. Gerald Grant (Carleton University)</li>
+    </ul>
+  
+  faq_body: |
+    <dt>How will the winners be chosen?</dt>
+    <dd>
+    <p>Contest entries will be reviewed by a panel of judges consisting of consisting of one City Official, two members of the business community, two members of the public, and two members of the academic community.</p>
+    <p>Judges will make their selections based on the following criteria:</p>
+    <ul>
+    <li><strong>Usefulness</strong> – utility to citizens of Ottawa overall, or any particular demographic of users in Ottawa</li>
+    <li><strong>Originality</strong> – uniqueness and inventive nature of application</li>
+    <li><strong>Ease of use</strong> – the overall usability of the application</li>
+    <li><strong>Access</strong> – ability for the application to be used by the broad array of citizens</li>
+    </ul>
+    <p>The People’s Choice award will be awarded based on the number of community votes received.</p>
+    </dd>
+    <dt>What do the different contest categories mean? What, specifically, will qualify my app for it? Can my app be eligible for more than one category?</dt>
+    <dd>
+    <p>The contest categories have been designed to capture the diversity of life in Ottawa, and to encourage the development of a broad range of applications to improve the quality of life in Ottawa. </p>
+    <p><em>Having Fun in Ottawa (Arts and Entertainment)</em> – apps aimed at leisure and fun in Ottawa, for example using restaurant data.</p>
+    <p><em>Getting Around (Transit &amp; Transportation)</em> – apps designed to make it easier for people to get around the city, for example using bicycle path data.</p>
+    <p><em>Green Environment/Sustainability (Environmental Preservation and Sustainability)</em> – apps designed to help preserve our natural environment, for example using green-space locations data.</p>
+    <p><em>Community Building</em> – apps developed to encourage people to connect with others and improve the quality of life in Ottawa, for example using voting locations data.</p>
+    <p><em>Economic Development</em> – apps designed to stimulate economic growth and development in Ottawa, for example using tourism information.</p>
+    </dd>
+    <dt>What is an Application Idea?</dt>
+    <dd>
+    <p>It’s important for this contest to engage beyond the web development community. We need everyone’s ideas on how we can leverage technology improve the living experience in Ottawa. To that end, we wanted this contest to be open to everyone’s ideas. However, it’s hard to judge ideas; they are all good! So what we’ve decided to do is reward you for taking the time to submit an idea. If you have a proposal for an app, but don’t know how to build it, tell us anyway. If you do, you will be entered into a random draw to win a mobile device.</p>
+    </dd>
+    <dt>Is my app eligible if it also uses commercial data?</dt>
+    <dd><p>As long as the commercial data is publicly available then you can feel free to use it.</p></dd>
+    <dt>How do I submit my ideas and application to the Contest?</dt>
+    <dd>
+    <p>You will need to complete the form provided and include your first and last name, company name (if applicable), address, city, province, postal code, and e-mail address.</p>
+    <p>All applications must be hosted and publicly available on the entrant’s own website or a third-party website. All users submitting iPhone applications to this contest must make their applications publicly accessible by the contest entry deadline (5:00pm EST January 3, 2011) via the Apple iPhone App Store, found at: <a href="http://www.apple.com/ca/iphone/apps-for-iphone/" rel="external">http://www.apple.com/ca/iphone/apps-for-iphone/</a>.</p>
+    </dd>
+    <dt>Does my application need to work after the competition?</dt>
+    <dd><p>Yes, in order for there to be real value for residents, all applications submitted to this contest must be made publicly accessible for a period of at least six months after the contest entry deadline.</p></dd>
+    <dt>Once I submit my application, does the City of Ottawa own my app, or do I?</dt>
+    <dd><p>We want you to prosper from your creation. Application developers retain ownership rights of their submitted applications and are permitted to sell the use of their applications commercially if they choose to do so.</p></dd>
+    <dt>Can I enter more than one idea or application to the contest?</dt>
+    <dd><p>Absolutely, we want to see all your ideas!</p></dd>
+    <dt>Who is eligible?</dt>
+    <dd><p>As long as you are a resident of Ontario and over the age of 18 you’re eligible.</p></dd>
+    <dt>What is your definition of student?</dt>
+    <dd><p>For the purposes of this contest, a student is defined as someone who is registered in at least one course for credit at an educational institution in Ontario that is either a Secondary School, Public University, Private University, Public College, or a Private Career College.</p></dd>
+    <dt>Can I enter as a team?</dt>
+    <dd><p>Yes, team work fosters creativity. Prize money will have to be shared with your team mates.</p></dd>
+    <dt>If my idea or app was largely developed years ago, can it qualify for this competition?</dt>
+    <dd><p>Yes, as long as it benefits residents or visitors to Ottawa, you are free to incorporate code that you have built/started/launched in the past.</p></dd>
+    <dt>What happens if I want to make changes to my submission?</dt>
+    <dd><p>Your app will be hosted on a third-party site you’ve set up. Feel free to change the app through the course of the competition. Just remember that you will be judged on the app that exits at the close of the competition (5:00pm EST January 3, 2011). If you need to make a change to your form, log into your account and make the appropriate changes before the end of the competition.</p></dd>
+
+  terms_body: |
+    <p>By using this website you agree to create and use only one (1) registered user account on this website. The City of Ottawa does not tolerate the creation and/or use of multiple registered user accounts by the same individual. Any attempt to alter, modify, or damage this website or undermine the legitimate operation of the contest hosted on this website is strictly prohibited. If you fail to comply with these Terms of Use, the City of Ottawa reserves the right to terminate your user account and seek damages from you to the fullest extent of the law. The City of Ottawa may, in its sole discretion, modify or revise these Terms of Use at anytime, and you agree to be bound by such modifications or revisions.</p>
+    <h2>Disclaimer</h2>
+    <p>While every effort has been made to ensure the accuracy and veracity of the information on this Web site, the City of Ottawa is not responsible in any way for damages arising out of the use of this web site. And, although the City of Ottawa relies on reputable sources and believes the information posted on the Web site by City of Ottawa is correct, and attempts to keep the information current, the City of Ottawa does not warrant the accuracy or completeness of the information.</p>
+    <p>The City of Ottawa reserves the right to discontinue, change or modify this site at any time without notice. Links to other Web sites or references to other organizations, products, services or publications do not constitute endorsement or approval by the City of Ottawa and the City of Ottawa makes no representations whatsoever about any other Web site which you may access through this one.</p>
+    <p>The City of Ottawa will not be liable for damages arising from, but in no way limited to, the transmission of confidential information over the internet.</p>
+    <p>The City of Ottawa reserves the right to edit, delete, modify, vet, and/or change any material sent or posted to its Web site in whole or in part at its sole discretion.</p>
+    <p>All information at this site is protected by the Canadian laws of copyright. Unless permission is granted, no one may copy, redistribute, reproduce or republish in any form, any material located on this Web site.</p>
+
+  privacy_body: |
+    <h2>Purpose</h2>
+    <p>The purpose of the statement is to inform users of this site with regard to the collection and use of personally identifiable information. The following is not intended and should not be interpreted as a contract of any nature, either stated or implied.</p>
+    <h2>Definition of Personally Identifiable Information</h2>
+    <p>For the purposes of this statement “personally identifiable information” means any information relating to an identified or identifiable individual who is the subject of the information.</p>
+    <h2>Providing Personally Identifiable Information</h2>
+    <p>Citizens do not have to routinely provide personal information to visit the City of Ottawa portal or to download information. Government agencies may request personally identifiable information from you in order to provide requested specialized services, but such information is handled as it would be on an in-person visit to a government office.</p>
+    <h2>Personally Identifiable Information Available</h2>
+    <p>The IP (Internet Protocol) numbers of computers (servers) used to visit sites are noted as part of our statistical analysis on use of our web sites so we may better design services and improve access to them. However, the site does not attempt to gain personally identifiable information on individual users and associate them with IP addresses.</p>
+    <h2>Restrictions on the disclosure of customer information</h2>
+    <p>Our users are important to us. We do not sell or rent our users’ information to any outside company or organization. We do not reveal specific information about users or other personally identifiable data to unaffiliated third parties for their independent use, except if required to do so by law. We endeavor to ensure that we collect only the minimum amount of information needed to meet the purpose for which the network was created.</p>
+    <h2>Other Web Sites</h2>
+    <p>Various Web sites may be linked through the portal. Visitors to those sites are advised to check the privacy statements of these sites and be cautious about providing personally identifiable information without a clear understanding of how the information will be used. Visitors may also wish to consult privacy guidelines such as those recommended by the Online Privacy Alliance.</p>
+    <h2>Use, collection, and retention of customer information at the City of Ottawa Portal</h2>
+    <p>For each visitor, we do collect information about the Internet Protocol (IP) address, type browser used, the date and time of the visit, and the IP addresses of the locations to which the visitor linked during his or her visit to our Web site. This information is strictly used for statistical reporting purposes.</p>
+    <p>We only collect, retain and use personal information where we believe it is essential (and allowed by law) to administer our business and to provide products, services and other opportunities requested by our customers.</p>
+    <h2>Method of data collection</h2>
+    <p>To collect data for statistical reporting purposes in order to improve our Web site, we are presently using an analytics software package called WebTrends. We do not tie the data that is gathered by this software to any personally identifiable information and your anonymity and privacy is protected at all times. This data is collected by the WebTrends software and produces reports that the City uses to improve its site. The information is kept private and not shared with anyone other than the City. To learn more about our Web analytics provider, please visit <a href="http://webtrends.com" rel="external">webtrends.com</a>.</p>
+    <p>We also use session-based cookies on the City Web site to process requested services (e.g. course registration). A session-based cookie is a small file that stores information, but is discarded when the user exits the browser. The City Web site uses this method in order to collect data that is not personally identifiable, ensuring that it is used for statistical reporting purposes only.</p>
+    <h2>Restrictions on the disclosure of customer information</h2>
+    <p>We do not sell or rent our users’ information to any outside company or organization. We do not reveal specific information about users or other personally identifiable data to unaffiliated third parties for their independent use, except if required to do so by law.</p>
+    <h2>Protection of information via established security procedures</h2>
+    <p>Improvements in internet security occasionally cause older browsers to be unable to connect to ottawa.ca. This is for the protection of our users. If your browser is unable to make a secure connection, please consider upgrading your browser if you wish to access protected content.</p>
+    <h2>Limiting employee access to information</h2>
+    <p>Our director limits employee access to personally identifiable information to only those employees who need access in order to perform their assigned duties. The director is instructed to enforce with its staff their responsibilities in protecting subscriber’s information.</p>
+    <h2>Freedom of Information (FOI)</h2>
+    <p>The City of Ottawa endeavors to make its information accessible to the public. Some records however contain information that is either privileged or of a personal nature. The Municipal Freedom of Information and Protection of Privacy Act compels the municipality to review such documents prior to their disclosure. Request to access such records requires a written request.</p>
+
+  mfippa: |
+    <p><small>Personal information is collected under the authority of sections 8 to 10 of Municipal Act, 2001 SO. 2001, c. 25, for the purposes of operating and administering the Apps4Ottawa Contest.</small></p>
+    <p><small>All questions regarding the collection, use and disclosure of your personal information may be directed to the Program Manager, IM/IT Architecture, City, Information Technology Services Department, 613-580-2424, 110 Laurier Avenue West, Ottawa, ON K1P 1J1.</small></p>
+
+  errors:
+    attachment_size: "must be under 2 megabytes in size."
+    attachment_type: "must be either a png, jpeg, or gif image."
+    template:
+      header:
+        one: "1 error prohibited this %{model} from being saved"
+        other: "%{count} errors prohibited this %{model} from being saved"
+      body: "There were problems with the following fields:"

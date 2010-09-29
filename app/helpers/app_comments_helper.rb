@@ -1,0 +1,2 @@
+module AppCommentsHelper
+end

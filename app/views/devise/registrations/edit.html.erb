@@ -1,0 +1,104 @@
+<% content_for :title do %>
+  <%=t :'devise.labels.profile' %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="primary">
+    <h1 id="summary"><%=t :'devise.labels.profile' %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+      <%= devise_error_messages! %>
+
+      <% if needs_to_fully_register? %>
+      <div class="notice">
+        <p><strong><%=t :'devise.labels.user_fields_required_notice' %></strong></p>
+        <ul>
+          <% if !current_user.street_address.present? %>
+          <li><%=t :'devise.labels.street_address' %></li>
+          <% end %>
+          <% if !current_user.city.present? %>
+          <li><%=t :'devise.labels.city' %></li>
+          <% end %>
+          <% if !current_user.province.present? %>
+          <li><%=t :'devise.labels.province' %></li>
+          <% end %>
+          <% if !current_user.postal_code.present? %>
+          <li><%=t :'devise.labels.postal_code' %></li>
+          <% end %>
+        </ul>
+      </div>
+      <% end %>
+
+      <fieldset class="field-group labelled-group">
+        <legend><%=t :'devise.labels.signin_info' %></legend>
+        <div class="field field-block">
+          <%= f.label :email, t(:'devise.labels.email') %>
+          <%= f.text_field :email %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :password, t(:'devise.labels.password') + t(:'devise.registrations.edit.password_instruction') %>
+          <%= f.password_field :password %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :password_confirmation, t(:'devise.labels.password_confirmation') %>
+          <%= f.password_field :password_confirmation %>
+        </div>
+      </fieldset>
+    
+      <fieldset class="field-group labelled-group">
+        <legend><%=t :'devise.labels.user_info' %></legend>
+        <div class="field field-block">
+          <%= f.label :name, t(:'devise.labels.name') %>
+          <%= f.text_field :name %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :business, t(:'devise.labels.business') %>
+          <%= f.text_field :business %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :website, t(:'devise.labels.website') %>
+          <%= f.text_field :website %>
+        </div>
+        <div class="field field-block<% if !current_user.street_address.present? %> incomplete<% end %>">
+          <%= f.label :street_address, t(:'devise.labels.street_address') %>
+          <%= f.text_field :street_address %>
+        </div>
+        <div class="field field-block<% if !current_user.city.present? %> incomplete<% end %>">
+          <%= f.label :city, t(:'devise.labels.city') %>
+          <%= f.text_field :city %>
+        </div>
+        <div class="field field-block<% if !current_user.province.present? %> incomplete<% end %>">
+          <%= f.label :province, t(:'devise.labels.province') %>
+          <%= f.text_field :province %>
+        </div>
+        <div class="field field-block<% if !current_user.postal_code.present? %> incomplete<% end %>">
+          <%= f.label :postal_code, t(:'devise.labels.postal_code') %>
+          <%= f.text_field :postal_code %>
+        </div>
+        <div class="field">
+          <%= f.check_box :student %> <%= f.label :student, t(:'devise.labels.student') %>
+        </div>
+        <div class="field">
+          <%= f.check_box :city_employee %> <%= f.label :city_employee, t(:'devise.labels.city_employee') %>
+        </div>
+      </fieldset>
+    
+      <fieldset class="field-group labelled-group">
+        <legend><%=t :confirm %></legend>
+        <div class="field field-block">
+          <%= f.label :current_password, t(:'devise.registrations.edit.current_password_instruction') %>
+          <%= f.password_field :current_password %>
+        </div>
+        <%=t :mfippa %>
+      </fieldset>
+    
+      <div class="button-group">
+        <%= f.submit t(:update), :class => 'btn' %>
+      </div>
+    <% end %>
+  </div>
+</div>

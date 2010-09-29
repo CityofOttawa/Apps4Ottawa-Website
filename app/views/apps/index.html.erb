@@ -1,0 +1,20 @@
+<% content_for :title do %>
+  <%=t :apps_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <%= render :partial => "shared/apps_banner" %>
+<% end %>
+
+<% if @apps.size > 0 %>
+<ol class="hfeed multi">
+  <% @apps.each do |app| %>
+    <%= render :partial => 'shared/app_card', :locals => { :app => app } %>
+  <% end %>
+</ol>
+<% else %>
+<div class="no-items">
+  <h2><%=t :no_apps_blurb %></h2>
+  <a href="/<%= I18n.locale %>/apps/new" class="btn btn-alt"><%=t :intro_apps_button %></a>
+</div>
+<% end %>

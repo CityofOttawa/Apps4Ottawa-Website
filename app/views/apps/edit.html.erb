@@ -1,0 +1,67 @@
+<% content_for :title do %>
+  <%=t :apps_edit_title %> · <%=t :apps_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="primary">
+    <h1 id="summary"><%=t :apps_edit %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <%= form_for(@app, :html=>{:multipart=>true},:url => { :controller => 'apps', :action => 'update', :locale => I18n.locale, :id => @app.id }) do |f| %>
+      <%= f.error_messages %>
+      <fieldset class="field-group">
+        <div class="field field-block">
+          <%= f.label :name, t(:name) %>
+          <%= f.text_field :name %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :link, t(:link) %>
+          <%= f.text_field :link %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :category_id, t(:category) %>
+          <select id="app_category_id" name="app[category_id]">
+            <option value="1"<%= (@app.category_id == 1) ? ' selected' : '' %>><%=t :category_fun %></option>
+            <option value="2"<%= (@app.category_id == 2) ? ' selected' : '' %>><%=t :category_around %></option>
+            <option value="3"<%= (@app.category_id == 3) ? ' selected' : '' %>><%=t :category_green %></option>
+            <option value="4"<%= (@app.category_id == 4) ? ' selected' : '' %>><%=t :category_community %></option>
+            <option value="5"<%= (@app.category_id == 5) ? ' selected' : '' %>><%=t :category_economic %></option>
+          </select>
+        </div>
+        <div class="field field-block">
+          <%= f.label :description, t(:description) %>
+          <%= f.text_area :description %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :data_sets, t(:data_sets) %>
+          <%= f.text_area :data_sets %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :resident_value, t(:resident_value) %>
+          <%= f.text_area :resident_value %>
+        </div>
+        <% unless @app.screenshot_file_name.nil? || !@app.errors.empty? %>
+        <div class="field field-block screenshot">
+          <%= f.label :screenshot, t(:screenshot) %>
+          <div class="screenshot-wrapper screenshot-display">
+            <%= image_tag @app.screenshot.url(:large) %>
+          </div>
+        </div>
+        <div class="field">
+          <%= check_box_tag 'remove_screenshot', '1' %> <%= f.label 'remove_screenshot', t(:remove_screenshot) %>
+        </div>
+        <% end %>
+        <div class="field field-block">
+          <%= f.label :screenshot, (I18n.t(:new_screenshot) + " <small>" + I18n.t(:screenshot_criteria) + "</small>").html_safe %>
+          <%= f.file_field :screenshot %>
+        </div>
+      </fieldset>
+      <div class="button-group">
+        <button type="submit" class="btn"><%=t :update %></button>
+      </div>
+    <% end %>
+  </div>
+</div>

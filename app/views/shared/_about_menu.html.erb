@@ -1,0 +1,24 @@
+<ul class="subnav">
+  <li<%= (current_page?(:action => 'index') ? ' class="current"' : "").html_safe %>>
+    <%= link_to t(:about), "#{about_index_path}#summary", :class => 'subnav-item' %>
+    
+    <ul class="subsubnav">
+      <li><%= link_to t(:important_dates), "#{about_index_path}#dates", :class => 'subnav-item' %></li>
+      <li><%= link_to t(:categories), "#{about_index_path}#categories", :class => 'subnav-item' %></li>
+      <li><%= link_to t(:prizes), "#{about_index_path}#prizes", :class => 'subnav-item' %></li>
+      <li><%= link_to t(:judges), "#{about_index_path}#judges", :class => 'subnav-item' %></li>
+    </ul>
+  </li>
+  <li<%= (current_page?(:action => 'faq') ? ' class="current"' : "").html_safe %>>
+    <%= link_to t(:faq), faq_about_index_path, :class => "subnav-item" %>
+  </li>
+  <li<%= (current_page?(:action => 'rules') ? ' class="current"' : "").html_safe %>>
+    <%= link_to t(:rules), rules_about_index_path, :class => "subnav-item" %>
+  </li>
+  <li<%= (current_page?(:action => 'terms') ? ' class="current"' : "").html_safe %>>
+    <%= link_to t(:terms), terms_about_index_path, :class => "subnav-item" %>
+  </li>
+  <li<%= (current_page?(:action => 'privacy') ? ' class="current"' : "").html_safe %>>
+    <%= link_to t(:privacy), privacy_about_index_path, :class => "subnav-item" %>
+  </li>
+</ul>

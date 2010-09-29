@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="<%= I18n.locale %>" class="<%= I18n.locale %>">
+<head>
+  <meta charset="utf-8">
+  <title><%= (title = yield(:title)).present? ? title : t(:home_title) %></title>
+  <meta name="ICBM" content="45.3333333,-75.5841666">
+  <meta name="geo.position" content="45.3333333,-75.5841666">
+  <meta name="geo.placename" content="Ottawa, Ontario, Canada">
+  <meta name="geo.region" content="ca-on">
+  <meta name="viewport" content="width=1100">
+  <%= javascript_include_tag 'modernizr-1.5.min.js' %>
+  <%= stylesheet_link_tag 'desktop', :media => "screen,projection,tv" %>
+  <link rel="profile" href="http://microformats.org/profile/hatom">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <%= csrf_meta_tag %>
+</head>
+<!--[if lt IE 7 ]><body role="document" class="ie6"><![endif]-->
+<!--[if IE 7 ]><body role="document" class="ie7"><![endif]-->
+<!--[if IE 8 ]><body role="document" class="ie8"><![endif]-->
+<!--[if IE 9 ]><body role="document" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body role="document"><!--<![endif]-->
+
+<header role="banner" class="masthead clearfix">
+  <div class="masthead-wrapper">
+    <div class="user-info">
+    <% if current_user %>
+      <p class="user"><%= current_user.email %> · 
+        <%= link_to t(:'devise.labels.profile'), edit_user_registration_path %> · <%= link_to t(:'devise.common.sign_out'), destroy_user_session_path %>
+      </p>
+    <% else %>
+      <p class="user">
+        <%= link_to t(:'devise.registrations.link'), new_user_registration_path %> · <%= link_to t(:'devise.common.sign_in'), new_user_session_path %></p>
+    <% end %>
+    </div>
+
+    <nav class="nav-tools">
+      <ul class="nav-group clearfix">
+        <li class="nav-item ottawa" title="<%=t :city_ottawa %>"><a href="http://ottawa.ca/index_<%= I18n.locale %>.html" rel="external" class="nav-item-inner"><span class="nav-label"><%=t :city_ottawa %></span></a></li>
+        <li class="nav-item lang">
+          <%= link_to url_for(:locale => t(:other_locale)), :class => "nav-item-inner", :lang => t(:other_locale), :hreflang => t(:other_locale) do %>
+            <span class="nav-label"><%= t :other_language %></span>
+          <% end %>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="nav" role="navigation">
+      <ul class="nav-group clearfix">
+        <li class="nav-item about<%= controller.controller_name == 'about' ? " current" : "" %>">
+          <%= link_to about_index_path, :class => "nav-item-inner" do %>
+            <span class="nav-label"><%=t :about %></span>
+          <% end %>
+        </li>
+        <li class="nav-item data"><a href="http://www.ottawa.ca/online_services/opendata/index_<%= I18n.locale %>.html" class="nav-item-inner" rel="external"><span class="nav-label"><%=t :data %></span></a></li>
+
+        <li class="nav-item home" title="<%=t :home %>">
+          <%= link_to root_url, :class => "nav-item-inner" do %>
+            <span class="nav-label"><%=t :home %></span>
+          <% end %>
+        </li>
+
+        <li class="nav-item ideas<%= controller.controller_name == 'ideas' ? " current" : "" %>">
+          <%= link_to ideas_path, :class => "nav-item-inner" do %>
+            <span class="nav-label"><%=t :ideas %></span>
+          <% end %>
+        </li>
+
+        <li class="nav-item apps<%= controller.controller_name == 'apps' ? " current" : "" %>">
+          <%= link_to apps_path, :class => "nav-item-inner" do %>
+            <span class="nav-label"><%=t :apps %></span>
+          <% end %>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

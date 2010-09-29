@@ -1,0 +1,24 @@
+<%= render :partial => "shared/wrapper_top" %>
+
+<section class="banner clearfix" role="complimentary">
+  <div class="content-wrapper">
+    <%= yield :banner %>
+  </div>
+</section>
+
+<section class="content clearfix" role="main">
+  <div class="content-wrapper">
+    <div class="primary">
+      <% if flash[:notice] %>
+        <p class="notice"><%= flash[:notice] %></p>
+      <% end %>
+      <% if flash[:alert] %>
+        <p class="alert"><%= flash[:alert] %></p>
+      <% end %>
+    </div>
+  </div>
+  
+  <%= yield %>
+</section>
+
+<%= render :partial => "shared/wrapper_bottom" %>

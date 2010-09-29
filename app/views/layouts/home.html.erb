@@ -1,0 +1,91 @@
+<%= render :partial => "shared/wrapper_top" %>
+
+<div class="intro">
+  <article class="wrapper intro-box">
+    <h1 class="name"><span class="ottawa"><%=t :title_1 %></span> <span class="od"><%=t :title_2 %></span> <span class="app"><%=t :title_3 %></span></h1>
+    <strong class="prizes"><span class="texture" id="prize-texture" title=""><%=t :prizes_amount %></span> <span class="shadow"><%=t :prizes_amount %></span></strong>
+    <p class="deadline deadline-single"><%=t :deadline %></p>
+    <!--<p class="desc"><%=t :desc %></p>-->
+  </article>
+</div>
+
+<section class="banner clearfix callouts" role="main">
+  <div class="callout apps">
+    <article class="wrapper">
+      <h2 class="name"><%= link_to t(:apps), apps_path %></h2>
+    <% if Apps4ottawa::Application::ALLOW_APP_SUBMISSION == true %>
+      <p class="desc"><%=t :intro_apps %></p>
+      <p class="desc submit"><strong><%=t :intro_apps_submit %> <a href="/<%= I18n.locale %>/about#prizes"><%=t :intro_win_prize %></a>.</strong></p>
+      <a href="/<%= I18n.locale %>/apps/new" class="btn"><%=t :intro_apps_button %></a>
+    <% else %>
+      <p class="desc"><%=t :intro_apps %></p>
+      <a href="/<%= I18n.locale %>/apps" class="btn"><%=t :vote %></a>
+    <% end %>
+    </article>
+  </div>
+  <div class="callout ideas">
+    <article class="wrapper">
+      <h2 class="name"><a href="/<%= I18n.locale %>/ideas"><%=t :ideas %></a></h2>
+    <% if Apps4ottawa::Application::ALLOW_IDEA_SUBMISSION == true %>
+      <p class="desc"><%=t :intro_ideas %></p>
+      <a href="/<%= I18n.locale %>/ideas/new" class="btn"><%=t :intro_ideas_button %></a>
+    <% else %>
+      <p class="desc"><%=t :intro_ideas %></p>
+      <a href="/<%= I18n.locale %>/ideas" class="btn"><%=t :vote %></a>
+    <% end %>
+    </article>
+  </div>
+</section>
+
+<section class="content clearfix" role="complementary">
+  <div class="col alpha">
+    <aside class="wrapper">
+      <h2 class="info-head"><a href="http://twitter.com/ottawadata" rel="external"><%=t :recent_tweets %> <span class="icon">&rarr;</span></a></h2>
+      <div class="tweets" data-loading="<%=t :loading_tweets %>"></div>
+    </aside>
+  </div>
+
+  <div class="col about">
+    <article class="wrapper">
+      <h2 class="info-head info-head-alt"><a href="/<%= I18n.locale %>/about"><%=t :about %> <span class="icon">&rarr;</span></a></h2>
+      <div class="wrapper-inner">
+        <p><%=t :about_commitment %></p>
+        <p><%=t :about_contest %></p>
+      </div>
+
+      <h2 class="info-head info-head-alt"><a href="/<%= I18n.locale %>/about#categories"><%=t :categories %> <span class="icon">&rarr;</span></a></h2>
+      <div class="wrapper-inner"><%= render :partial => "shared/categories" %></div>
+
+      <h2 class="info-head info-head-alt"><%=t :winners %></h2>
+      <div class="wrapper-inner"><%=t :winners_summary %></div>
+    </article>
+  </div>
+
+  <div class="col omega ideas">
+    <aside class="wrapper">
+      <h2 class="info-head"><a href="/<%= I18n.locale %>/ideas"><%=t :recent_ideas %> <span class="icon">&rarr;</span></a></h2>
+      <% recent_ideas = Idea.all(:limit => 10, :order => 'id DESC') %>
+      <% if recent_ideas.size > 0 %>
+        <ol class="hfeed">
+        <% recent_ideas.each do |idea| %>
+          <li class="hentry">
+            <a href="/<%= I18n.locale %>/ideas/<%=h idea.id %>" class="hentry-item">
+              <strong class="entry-title"><%=h idea.name %></strong>
+              <span class="author"><%=h idea.user.name %></span>
+              <span class="comments" title="<%=h idea.idea_comments.size %> people commented on this idea"><%=h idea.idea_comments.size %></span>
+              <span class="likes" title="<%=h idea.rating %> people like this idea"><%=h idea.rating %></span>
+            </a>
+          </li>
+        <% end %>
+        </ol>
+      <% else %>
+        <div class="no-items">
+          <h2><%=t :no_ideas_blurb %></h2>
+          <a href="/<%= I18n.locale %>/ideas/new" class="btn btn-alt"><%=t :intro_ideas_button %></a>
+        </div>
+      <% end %>
+    </aside>
+  </div>
+</section>
+
+<%= render :partial => "shared/wrapper_bottom" %>

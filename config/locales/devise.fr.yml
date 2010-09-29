@@ -1,0 +1,73 @@
+fr:
+  errors:
+    messages:
+      not_found: "not found"
+      already_confirmed: "was already confirmed"
+      not_locked: "was not locked"
+
+  devise:
+    failure:
+      unauthenticated: 'Inscrivez-vous pour faire des commentaires, partager des idées et soumettre des applications!'
+      unconfirmed: 'You have to confirm your account before continuing.'
+      locked: 'Your account is locked.'
+      invalid: 'Invalid email or password.'
+      invalid_token: 'Invalid authentication token.'
+      timeout: 'Your session expired, please sign in again to continue.'
+      inactive: 'Your account was not activated yet.'
+    sessions:
+      signed_in: "Réussite de la connexion."
+      signed_out: "Réussite de la deconnexion."
+    passwords:
+      send_instructions: 'You will receive an email with instructions about how to reset your password in a few minutes.'
+      updated: 'Your password was changed successfully. You are now signed in.'
+      link: "Mot de passe oublié?"
+    confirmations:
+      send_instructions: 'You will receive an email with instructions about how to confirm your account in a few minutes.'
+      confirmed: 'Your account was successfully confirmed. You are now signed in.'
+    registrations:
+      link: 'S’inscrire'
+      signed_up: "Votre inscription est enregistrée!"
+      updated: "Votre mise à jour a été prise en compte."
+      destroyed: "Bye! Votre compte est annulé. Nous souhaitons vous revoir bientôt."
+      edit:
+        password_instruction: " (ne pas remplir si vous ne voulez pas le changer)"
+        current_password_instruction: "Vous devez remplir votre mot de passe en cours pour confirmer vos changement"
+    unlocks:
+      send_instructions: 'You will receive an email with instructions about how to unlock your account in a few minutes.'
+      unlocked: 'Your account was successfully unlocked. You are now signed in.'
+    mailer:
+      confirmation_instructions:
+        subject: 'Instructions de confirmation'
+      reset_password_instructions:
+        subject: 'Instructions pour redéfinir le mot de passe'
+      unlock_instructions:
+        subject: 'Instructions de déverrouillage'
+    common:
+      sign_in: "Se connecter"
+      sign_out: "Se déconnecter"
+    labels:
+      name: "Nom"
+      password: "Mot de passe"
+      password_confirmation: "Confirmer le mot de passe"
+      change_password: "Modifier le mot de passe"
+      email: "Courriel"
+      remember_me: "Se souvenir de moi"
+      signin_blurb: "Inscrivez-vous pour faire des commentaires, partager des idées et soumettre des applications!"
+      profile: "Profil"
+      register_blurb: "Déjà inscrit?"
+      terms_of_use: "J’ai lu et j’accepte les conditions du Concours AppspourOttawa"
+      terms_of_use_2: "et du"
+      signin_info: "Renseignements sur le compte"
+      user_info: "Renseignements sur l’utilisateur"
+      website: "Site&nbsp;Web (facultatif)"
+      business: "Nom commercial (facultatif)"
+      street_address: "Adresse"
+      city: "Ville"
+      province: "Province"
+      postal_code: "Code postal"
+      student: "Je suis étudiant"
+      city_employee: "Je suis un employé de la Ville"
+      user_fields_required_notice: "Tous les renseignements sur l’utilisateur sont requis pour soumettre des applications et des idées."
+      send_reset: "Envoyer les instructions pour redéfinir le mot de passe"
+      resend_unlock: "Renvoyer les instructions de déverrouillage"
+      resend_confirmation: "Renvoyer les instructions de confirmation"

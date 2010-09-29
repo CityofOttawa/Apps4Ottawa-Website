@@ -1,0 +1,18 @@
+<% content_for :title do %>
+  <%=t :terms %> · <%=t :about_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <nav class="secondary intro-box subnav-group" role="navigation">
+    <%= render :partial => "shared/about_menu" %>
+  </nav>
+  <div class="primary">
+    <h1 id="summary"><%=t :terms %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <dl><%=t :terms_body %></dl>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<li class="hentry">
+  <a href="/<%= I18n.locale %>/ideas/<%=h idea.id %>" target="_blank" class="hentry-item">
+    <strong class="entry-title"><%=h idea.name %></strong>
+    <span class="author"><%=h idea.user.name %></span>
+    <span class="desc"><%=h snippet(idea.description, 20) %></span>
+    <span class="comments" title="<%=h idea.idea_comments.size %> <%=h (idea.idea_comments.size != 1) ? I18n.t(:commented_idea_plural) : I18n.t(:commented_idea) %>"><%=h idea.idea_comments.size %></span>
+    <span class="likes" title="<%=h idea.rating %> <%=h (idea.rating != 1) ? I18n.t(:voted_idea_plural) : I18n.t(:voted_idea) %>"><%=h idea.rating %></span>
+  </a>
+  <% if current_user && (idea.user == current_user || current_user.admin?) %>
+    <div class="user-tools">
+      <a href="/<%= I18n.locale %>/ideas/<%=h idea.id %>/edit" class="edit"><%=t :edit %></a> · 
+      <%= form_for(idea, :url => { :controller => 'ideas', :action => 'destroy', :locale => I18n.locale, :id => idea.id }, :html => { :class => 'inline', :method => 'delete' }) do |f| %>
+        <button type="submit" class="btn-simple delete"><%=t :delete %></button>
+      <% end %>
+    </div>
+  <% end %>
+</li>

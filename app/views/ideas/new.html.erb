@@ -1,0 +1,15 @@
+<% content_for :title do %>
+  <%=t :ideas_new_title %> · <%=t :ideas_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="primary">
+    <h1 id="summary"><%=t :intro_ideas_button %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <%= render @idea %>
+  </div>
+</div>

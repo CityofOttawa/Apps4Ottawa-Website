@@ -1,0 +1,52 @@
+<% content_for :title do %>
+  <%= t :'devise.registrations.link' %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="secondary intro-box action">
+    <div class="intro-box-wrapper clearfix">
+      <p class="desc"><%=t :'devise.labels.register_blurb' %></p>
+      <%= link_to t('devise.common.sign_in'), new_session_path(resource_name), :class => 'btn btn-alt' %>
+    </div>
+  </div>
+
+  <div class="primary">
+    <h1 id="summary"><%= t :'devise.registrations.link' %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+      <%= devise_error_messages! %>
+
+      <fieldset class="field-group">
+        <div class="field field-block">
+          <%= f.label :name, t(:'devise.labels.name') %>
+          <%= f.text_field :name %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :email, t(:'devise.labels.email') %>
+          <%= f.text_field :email %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :password, t(:'devise.labels.password') %>
+          <%= f.password_field :password %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :password_confirmation, t(:'devise.labels.password_confirmation') %>
+          <%= f.password_field :password_confirmation %>
+        </div>
+        <div class="field">
+          <%= f.check_box :terms_of_use %>
+          <label for="user_terms_of_use"><%= t(:'devise.labels.terms_of_use') %> <%= link_to t(:rules), rules_about_index_path %> <%= t(:'devise.labels.terms_of_use_2') %> <%= link_to t(:terms), terms_about_index_path %>.</label>
+        </div>
+        <%=t :mfippa %>
+      </fieldset>
+
+      <div class="button-group">
+        <%= f.submit t(:'devise.registrations.link'), :class => 'btn' %>
+      </div>
+    <% end %>
+  </div>
+</div>

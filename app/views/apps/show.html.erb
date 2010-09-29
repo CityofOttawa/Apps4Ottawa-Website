@@ -1,0 +1,117 @@
+<% content_for :title do %>
+  <%=h @app.name %> · <%=t :apps_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="secondary intro-box action">
+    <div class="intro-box-wrapper clearfix">
+    <% if Apps4ottawa::Application::ALLOW_APP_VOTING == true %>
+      <strong class="votes"><%= @app.rating %> <%= (@app.rating != 1) ? t(:votes) : t(:vote) %></strong>
+      <% if current_user then %>
+        <% if !@app.app_ratings.exists?(:user_id => current_user.id) && current_user.app_ratings.empty? then %>
+          <form method="post" action="/<%= I18n.locale %>/apps/<%=h @app.id %>/like" class="inline vote">
+            <input type="hidden" name="_method" value="put">
+            <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+            <button type="submit" class="btn btn-alt"><%=t :vote %></button>
+          </form>
+        <% end %>
+      <% else %>
+        <p class="body signin"><%= link_to t(:'devise.common.sign_in'), new_user_session_path %> <%=t :or %> <%= link_to t(:'devise.registrations.link'), new_user_registration_path %> <%=t :to_vote %>.</p>
+      <% end %>
+    <% else %>
+      <p class="desc"><%=t :come_back_vote %></p>
+    <% end %>
+    </div>
+  </div>
+  <div class="primary app">
+  <% if @link.blank? || @link == 'http://' %>
+    <h1 id="summary"><%=h @app.name %></h1>
+  <% else %>
+    <h1 id="summary"><a href="<%=h @link %>" rel="external"><%=h @app.name %> &rarr;</a></h1>
+  <% end %>
+    <% if @userlink.blank? || @userlink == 'http://' %>
+    <p class="author desc"><%=h @app.user.name %><%=h (@app.user.business && @app.user.business != '') ? ', ' + @app.user.business : '' %></p>
+    <% else %>
+    <p class="author desc"><a href="<%=h @userlink %>"><%=h @app.user.name %><%=h (@app.user.business && @app.user.business != '') ? ', ' + @app.user.business : '' %> &rarr;</a></p>
+    <% end %>
+    <p><%
+      case @app.category_id
+        when 5 %>
+          <%=t :category_economic %>
+        <% when 4 %>
+          <%=t :category_community %>
+        <% when 3 %>
+          <%=t :category_green %>
+        <% when 2 %>
+          <%=t :category_around %>
+        <% when 1 %>
+          <%=t :category_fun %>
+      <% end
+    %></p>
+    <% if current_user && (@app.user == current_user || current_user.admin?) %>
+    <div class="user-tools">
+      <a href="/<%= I18n.locale %>/apps/<%=h @app.id %>/edit" class="edit"><%=t :edit %></a> · 
+      <%= form_for(@app, :url => { :controller => 'apps', :action => 'destroy', :locale => I18n.locale, :id => @app.id }, :html => { :class => 'inline', :method => 'delete' }) do |f| %>
+        <button type="submit" class="btn-simple delete"><%=t :delete %></button>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+
+    <% unless @app.screenshot_file_name.nil? %>
+      <div class="box screenshot">
+        <div class="screenshot-wrapper">
+          <% if @link.blank? || @link == 'http://' %>
+            <%= image_tag @app.screenshot.url(:large), :alt => '' %>
+          <% else %>
+            <a href="<%=h @link %>" rel="external"><%= image_tag @app.screenshot.url(:large), :alt => '' %></a>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+    <% unless @link.blank? || @link == 'http://' %>
+      <p class="app-link"><a href="<%=h @link %>" class="btn" rel="external"><%=t :go_to_app %> &rarr;</a></p>
+    <% end %>
+
+    <div class="box">
+      <h2><%=t :description %></h2>
+      <%= simple_format h(@app.description) %>
+      <h2><%=t :data_sets %></h2>
+      <%= simple_format h(@app.data_sets) %>
+      <h2><%=t :resident_value %></h2>
+      <%= simple_format h(@app.resident_value) %>
+    </div>
+
+    <h2><%=t :comments %></h2>
+    <ol class="hfeed comments">
+    <% @app.app_comments.each do |comment| %>
+      <li class="hentry comment">
+        <strong><%=h comment.user.name %></strong>
+        <%= simple_format h(comment.comment) %>
+      </li>
+    <% end %>
+    </ol>
+
+    <% if current_user then %>
+      <%= form_for(AppComment.new) do |f| %>
+        <fieldset class="field-group">
+          <div class="field field-block">
+            <%= f.hidden_field :app_id, :value => @app.id %>
+            <%= f.label :comment, t(:comment) %>
+            <%= f.text_area :comment %>
+          </div>
+        </fieldset>
+        <div class="button-group">
+          <button type="submit" class="btn"><%=t :comment %></button>
+        </div>
+      <% end %>
+    <% else %>
+      <p><%= link_to t(:'devise.common.sign_in'), new_user_session_path %> <%=t :or %> <%= link_to t(:'devise.registrations.link'), new_user_registration_path %> <%=t :to_comment %>.</p>
+    <% end %>
+  </div>
+</div>

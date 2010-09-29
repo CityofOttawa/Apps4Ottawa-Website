@@ -1,0 +1,73 @@
+en:
+  errors:
+    messages:
+      not_found: "not found"
+      already_confirmed: "was already confirmed"
+      not_locked: "was not locked"
+
+  devise:
+    failure:
+      unauthenticated: 'You need to sign in or sign up before continuing.'
+      unconfirmed: 'You have to confirm your account before continuing.'
+      locked: 'Your account is locked.'
+      invalid: 'Invalid email or password.'
+      invalid_token: 'Invalid authentication token.'
+      timeout: 'Your session expired, please sign in again to continue.'
+      inactive: 'Your account was not activated yet.'
+    sessions:
+      signed_in: 'Signed in successfully.'
+      signed_out: 'Signed out successfully.'
+    passwords:
+      send_instructions: 'You will receive an email with instructions about how to reset your password in a few minutes.'
+      updated: 'Your password was changed successfully. You are now signed in.'
+      link: 'Forgot password?'
+    confirmations:
+      send_instructions: 'You will receive an email with instructions about how to confirm your account in a few minutes.'
+      confirmed: 'Your account was successfully confirmed. You are now signed in.'
+    registrations:
+      link: 'Register'
+      signed_up: 'You have signed up successfully!'
+      updated: 'You updated your account successfully.'
+      destroyed: 'Bye! Your account was successfully cancelled. We hope to see you again soon.'
+      edit:
+        password_instruction: " (leave blank if you don’t want to change)"
+        current_password_instruction: "Current Password (needed to confirm your changes)"
+    unlocks:
+      send_instructions: 'You will receive an email with instructions about how to unlock your account in a few minutes.'
+      unlocked: 'Your account was successfully unlocked. You are now signed in.'
+    mailer:
+      confirmation_instructions:
+        subject: 'Confirmation instructions'
+      reset_password_instructions:
+        subject: 'Reset password instructions'
+      unlock_instructions:
+        subject: 'Unlock Instructions'
+    common:
+      sign_in: "Sign In"
+      sign_out: "Sign Out"
+    labels:
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Confirm Password"
+      change_password: "Change Password"
+      email: "E-mail"
+      remember_me: "Remember me"
+      signin_blurb: "Register to comment, share ideas and enter apps!"
+      profile: "Profile"
+      register_blurb: "Already registered?"
+      terms_of_use: "I have read and agree to be bound by the Apps4Ottawa Contest"
+      terms_of_use_2: "and the"
+      signin_info: "Sign In Information"
+      user_info: "User Information"
+      website: "Web Site (optional)"
+      business: "Business (optional)"
+      street_address: "Street Address"
+      city: "City"
+      province: "Province"
+      postal_code: "Postal Code"
+      student: "I’m a student"
+      city_employee: "I’m a city employee"
+      user_fields_required_notice: "All user information is required for submitting apps and ideas."
+      send_reset: "Send password reset instructions"
+      resend_unlock: "Resend unlock instructions"
+      resend_confirmation: "Resend confirmation instructions"

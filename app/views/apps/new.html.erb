@@ -1,0 +1,56 @@
+<% content_for :title do %>
+  <%=t :apps_new_title %> · <%=t :apps_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="primary">
+    <h1 id="summary"><%=t :intro_apps_button %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <%= form_for @app, :html => { :multipart=>:true } do |f| %>
+      <%= f.error_messages %>
+      <fieldset class="field-group">
+        <div class="field field-block">
+          <%= f.label :name, I18n.t(:name) %>
+          <%= f.text_field :name %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :link, I18n.t(:link) %>
+          <%= f.text_field :link %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :category_id, I18n.t(:category) %>
+          <select id="app_category_id" name="app[category_id]">
+            <option value="1"<%= (@app.category_id == 1) ? ' selected' : '' %>><%=t :category_fun %></option>
+            <option value="2"<%= (@app.category_id == 2) ? ' selected' : '' %>><%=t :category_around %></option>
+            <option value="3"<%= (@app.category_id == 3) ? ' selected' : '' %>><%=t :category_green %></option>
+            <option value="4"<%= (@app.category_id == 4) ? ' selected' : '' %>><%=t :category_community %></option>
+            <option value="5"<%= (@app.category_id == 5) ? ' selected' : '' %>><%=t :category_economic %></option>
+          </select>
+        </div>
+        <div class="field field-block">
+          <%= f.label :description, I18n.t(:description) %>
+          <%= f.text_area :description %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :data_sets, I18n.t(:data_sets) %>
+          <%= f.text_area :data_sets %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :resident_value, I18n.t(:resident_value) %>
+          <%= f.text_area :resident_value %>
+        </div>
+        <div class="field field-block">
+          <%= f.label :screenshot, (I18n.t(:screenshot) + " <small>" + I18n.t(:screenshot_criteria) + "</small>").html_safe %>
+          <%= f.file_field :screenshot %>
+        </div>
+      </fieldset>
+      <div class="button-group">
+        <button type="submit" class="btn"><%=t :create %></button>
+      </div>
+    <% end %>
+  </div>
+</div>

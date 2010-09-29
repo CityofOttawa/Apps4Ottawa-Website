@@ -1,0 +1,540 @@
+fr:
+  other_locale: "en"
+  other_language: "English"
+
+  dollar_before: ""
+  dollar_after: "&nbsp;$"
+
+  home_title: "AppsPourOttawa—Concours d’applications utilisant des données ouvertes"
+  title: "AppsPourOttawa"
+  city_ottawa: "Ville d’Ottawa"
+
+  home: "Accueil"
+  about: "À propos"
+  data: "Données"
+  ideas: "Idées"
+  apps: "Apps"
+  categories: "Catégories"
+  category: "Catégorie"
+  important_dates: "Dates importantes"
+  prizes: "Prix"
+  prize: "Prix"
+  judges: "Jurés"
+  faq: "FAQ"
+  rules: "Règlement officiel"
+  terms: "Dégagement de responsabilité"
+  privacy: "Principes de confidentialité"
+  count: "Nombre"
+  total: "Total"
+
+  title_1: "Ottawa"
+  title_2: "Données ouvertes"
+  title_3: "Concours d’applications"
+  prizes_amount: "50&nbsp;000&nbsp;$ en prix"
+  desc: "Les données ouvertes consistent en un phénomène mondial qui encourage les gouvernements à <strong>rendre les données publiques accessibles gratuitement</strong>."
+  deadline: "Le premier concours de création d’applications à Ottawa est maintenant terminé. Félicitations à tous nos gagnants."
+
+  intro_apps: "Découvrez les applications faites avec les données ouvertes de la Ville d’Ottawa."
+  intro_apps_submit: "Soumettez votre application et courez la chance de"
+  intro_apps_button: "Voir les applications"
+  intro_view_apps_button: "Voir les applications"
+
+  intro_win_prize: "gagner un prix"
+
+  intro_ideas: "Vous avez une idée fantastique pour l’utilisation des données ouvertes d’Ottawa?"
+  intro_ideas_submit: "Partagez votre idée et courez la chance de"
+  intro_ideas_button: "Partager&nbsp;une&nbsp;idée"
+
+  recent_tweets: "Nouvelles"
+  loading_tweets: "Chargement des gazouillis récents…"
+  recent_ideas: "Idées récentes"
+
+  go_to_app: "Aller à l’app"
+
+  about_title: "À propos"
+  about_commitment: "La Ville d’Ottawa s’est engagée à améliorer sa transparence et sa responsabilité  auprès des résidents et à accroître leur participation en fournissant un accès public à ses données. Afin d’encourager l’utilisation efficace de ces données, la Ville lance le concours Données ouvertes."
+  about_contest: "Ce concours vise à récompenser les concepteurs d’applications et d’outils Internet les plus utiles, créatifs et efficaces qui permettront aux citoyens d’utiliser aisément les données de la Ville d’Ottawa."
+
+  category_fun: "Se divertir à Ottawa"
+  category_around: "Se déplacer"
+  category_green: "L’environnement et la durabilité"
+  category_community: "Le développement communautaire"
+  category_economic: "Le développement économique"
+  categories_body: "Les cinq catégories suivantes visent à couvrir les différents aspects d’une collectivité bien portante."
+
+  compeititon_date_title: "La période d’inscription au concours"
+  compeititon_date: "le 29 septembre 2010 à 17 h – le 3 janvier 2011 à 17 h (heure de l’Est)"
+  public_date_title: "La période d’inscription au concours"
+  public_date: "le 4 janvier 2011 à midi – le 28 janvier 2011 à 17 h (heure de l’Est)"
+  judging_date_title: "Début de la période de décision du jury"
+  judging_date: "le 4 janvier 2011"
+  awards_date_title: "Remise des prix"
+  awards_date: "le 15 février 2011"
+
+  apps_title: "Apps"
+  apps_edit_title: "Modifier l’application"
+  apps_edit: "Modifier l’application"
+  apps_new_title: "Inscription"
+  apps_heading: "Soumissions"
+  apps_blurb: "Le premier concours de création d’applications à Ottawa est maintenant terminé. Félicitations à tous nos gagnants. Pour plus d’information sur la continuation de la transparence et de l’initiative visant l’accès aux données à Ottawa, consultez <a href='http://ottawa.ca/donneesouvertes'>http://ottawa.ca/donneesouvertes</a>."
+  name: "Nom de l’application"
+  link: "Lien"
+  come_back_vote: "Revenez le 4&nbsp;janvier pour voter!"
+  no_apps_blurb: "Soyez le premier à soumettre une application!"
+
+  ideas_title: "Idées"
+  ideas_new_title: "Partager une idée"
+  ideas_edit_title: "Modifier l’idée"
+  ideas_edit: "Modifier l’idée"
+  ideas_heading: "Faites part de vos idées"
+  ideas_blurb: "Le premier concours de création d’applications à Ottawa est maintenant terminé. Félicitations à tous nos gagnants. Pour plus d’information sur la continuation de la transparence et de l’initiative visant l’accès aux données à Ottawa, consultez <a href='http://ottawa.ca/donneesouvertes'>http://ottawa.ca/donneesouvertes</a>."
+  name: "Titre de l’idée"
+  no_ideas_blurb: "Soyez le premier à partager une idée!"
+
+  create: "Créer"
+  update: "Mettre à jour"
+  description: "Fonction"
+  data_sets: "Sources de données utilisées"
+  resident_value: "Atouts de l’application pour les résidents"
+  screenshot: "Image"
+  new_screenshot: "Nouvelle image"
+  screenshot_criteria: "(Max 2 Mo. JPEG, PNG, GIF seulement.)"
+  remove_screenshot: "Enlever cette image."
+
+  or: "ou"
+
+  comments: "Commentaires"
+  comment: "Commentaire"
+  to_comment: "pour faire un commentaire"
+
+  vote: "Voter"
+  votes: "Votes"
+  to_vote: "pour voter"
+
+  commented_app: "personne a commenté cette application"
+  voted_app: "personne a voté pour cette application"
+  commented_idea: "personne a commenté cette idée"
+  voted_idea: "personne a voté pour cette idée"
+  commented_app_plural: "personnes ont commenté cette application"
+  voted_app_plural: "personnes ont voté pour cette application "
+  commented_idea_plural: "personnes ont commenté cette idée"
+  voted_idea_plural: "personnes ont voté pour cette idée"
+
+  edit: "modifier"
+  delete: "supprimer"
+
+  confirm: "Confirmer vos changement"
+
+  winners: "Les gagnants du concours"
+  winners_summary: |
+    <div class='winners'>
+      <span class='entry-title'>Meilleure application:</span>
+        <ul>
+          <li><a href='http://www.apps4ottawa.ca/fr/apps/66'>Ottawa Guide</a>&nbsp-&nbsp<span class='author'>Ekwa Jacob Duala-Ekoko</li>
+        </ul>
+      <span class='entry-title'>Choix du public:</span>
+        <ul>
+          <li><a href='http://www.apps4ottawa.ca/fr/apps/81'>Where is my bus?</a>&nbsp-&nbsp<span class='author'>Jonathan Rudenberg</li>
+          <li><a href='http://www.apps4ottawa.ca/fr/apps/66'>Ottawa Guide</a>&nbsp-&nbsp<span class='author'>Ekwa Jacob Duala-Ekoko</li>
+        </ul>
+      <span class='entry-title'>Meilleure application – Étudiant:</span>
+        <ul>
+          <li><a href='http://www.apps4ottawa.ca/fr/apps/89'>OttawaFun.ca</a>&nbsp-&nbsp<span class='author'>Tyler Pearce</li>
+        </ul>
+      <span class='entry-title'>Se divertir à Ottawa:</span>
+        <ul>
+          <li><b>Or:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/89'>OttawaFun.ca</a>&nbsp-&nbsp<span class='author'>Tyler Pearce</li>
+          <li><b>Argent:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/78'>Ottawa Pastoral</a>&nbsp-&nbsp<span class='author'>James DeMond</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/33'>Ottawa Dog Park Finder</a>&nbsp-&nbsp<span class='author'>Thomas J Bradley</li>
+        </ul>
+      <span class='entry-title'>Se déplacer:</span>
+        <ul>
+          <li><b>Or:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/45'>Ottawa Enroute</a>&nbsp-&nbsp<span class='author'>Michael Russell</li>
+          <li><b>Argent:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/41'>My Oc Transpo</a>&nbsp-&nbsp<span class='author'>Ali Al-Munayer</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/15'>Ottawa Pools</a>&nbsp-&nbsp<span class='author'>Phillipe Guitard</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/47'>Ottawa Rinks</a>&nbsp-&nbsp<span class='author'>Phillipe Guitard</li>
+        </ul>
+      <span class='entry-title'>L’environnement et la durabilité:</span>
+        <ul>
+          <li><b>Or:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/58'>Collection Calendar</a>&nbsp-&nbsp<span class='author'>Alec Mills</li>
+          <li><b>Argent:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/1'>GoLocavore</a>&nbsp-&nbsp<span class='author'>Chris Wise</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/19'>Ottawa Recycles</a>&nbsp-&nbsp<span class='author'>Bill Wilson</li>
+        </ul>
+      <span class='entry-title'>Le développement communautaire:</span>
+        <ul>
+          <li><b>Or:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/85'>Ottawa Biking Problems</a>&nbsp-&nbsp<span class='author'>Alex deVries</li>
+          <li><b>Argent:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/48'>Ottawa Account</a>&nbsp-&nbsp<span class='author'>Fenqiang Zhuang</li>
+          <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/118'>ShinnyApp</a>&nbsp-&nbsp<span class='author'>Shawn French</li>
+        </ul>
+      <span class='entry-title'>Le développement économique:</span>
+          <ul>
+            <li><b>Or:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/66'>Ottawa Guide</a>&nbsp-&nbsp<span class='author'>Ekwa Jacod Duala-Ekoko</li>
+            <li><b>Argent:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/113'>Ottawa Inside Out</a>&nbsp-&nbsp<span class='author'>Samir Al-Battran</li>
+            <li><b>Bronze:</b>&nbsp&nbsp<a href='http://www.apps4ottawa.ca/fr/apps/101'>Temporals.com</a>&nbsp-&nbsp<span class='author'>Mike Felepchuk</li>
+          </ul>
+      <span class='entry-title'>Prix de participation:</span>
+          <ul>
+            <li><a href='http://www.apps4ottawa.ca/fr/ideas/38'>Construction Ottawa</a>&nbsp-&nbsp<span class='author'>Magdalena Barys</li>
+            <li><a href='http://www.apps4ottawa.ca/fr/ideas/18'>Estimated Bus Location and Time</a>&nbsp-&nbsp<span class='author'>Mohamed Nur</li>
+            <li><a href='http://www.apps4ottawa.ca/fr/ideas/53'>Urgent Care!</a>&nbsp-&nbsp<span class='author'>Mike Kelly</li>
+          </ul>
+      <br />
+      Pour plus d’information sur la continuation de la transparence et de l’initiative visant l’accès `aux données à Ottawa, consultez <a href="http://ottawa.ca/donneesouvertes">http://ottawa.ca/donneesouvertes</a>.
+    </div>
+  rules_summary: "Résumé des règlements"
+  rules_summary_body: |
+    <p>Les règlements du concours ont été conçus pour stimuler la créativité et l’originalité plutôt que les contraindre. Le concours est ouvert aux résidents de la province de l’Ontario. Les employés de la Ville peuvent également s’inscrire, mais ne sont pas admissibles aux prix en argent.</p>
+    <p>Les participants doivent concevoir une application pour les appareils portatifs, les ordinateurs de bureau, les sites Web ou toute autre plateforme logicielle accessible à la majeure partie des résidents de la Ville d’Ottawa.</p>
+    <p>Bien que les participants sont encouragés à utiliser au moins un ensemble de données provenant du catalogue des données ouvertes de la Ville d’Ottawa, ils n’y seront pas obligés. Le concours vise à apporter des améliorations dans la communauté par des applications qui utilisent des données accessibles au public. Dans la mesure où les participants conçoivent une application qui contribue à améliorer la Ville d’Ottawa, ils peuvent utiliser n’importe quelles données.</p>
+    <p>Les concepteurs demeureront propriétaires de leur application.</p>
+    <p>Tous les résidents de l’Ontario âgés de 16 ans ou plus sont admissibles au concours.</p>
+  rules_view: "Consultez tous les règlements du concours"
+  rules_body: |
+    <p><em>Modifications apportées aux règlements du concours le 29 décembre 2010 : voir sections 3.1.1, 6.2.1 et 11.2.1</em></p>
+    <h2>1. PHASES DU CONCOURS&nbsp;:</h2>
+    <p>1.1 Le Concours Apps4Ottawa («&nbsp;Concours&nbsp;») est organisé par la Ville d’Ottawa («&nbsp;Ville&nbsp;») et est composé de deux phases conjointement désignées comme «&nbsp;durée du Concours&nbsp;»&nbsp;:</p>
+    <ol style="list-style-type:lower-alpha">
+      <li>La première phase du Concours débutera à 17&nbsp;h&nbsp;HAE le 29&nbsp;septembre&nbsp;2010 et se terminera à 17&nbsp;h HNE&nbsp;le 3&nbsp;janvier&nbsp;2011 (la «&nbsp;période de soumission&nbsp;»);</li>
+      <li>La seconde phase du Concours débutera à 17&nbsp;h HNE le 4&nbsp;janvier&nbsp;2011 et se terminera à 17&nbsp;h&nbsp;HNE le 28&nbsp;janvier&nbsp;2011 (la «&nbsp;période de sélection&nbsp;»).</li>
+    </ol>
+    <p>1.2 Pendant la période de soumission, vous pourrez vous inscrire en ligne sur http://www.apps4ottawa.ca (le «&nbsp;site Internet du Concours&nbsp;») et&nbsp;:</p>
+    <ol style="list-style-type:lower-alpha">
+      <li>Soumettre une application Web&nbsp;ou une application mobile conçue pour mettre en valeur la ville d’Ottawa («&nbsp;soumission d’une application&nbsp;»), ou;</li>
+      <li>Soumettre une idée ou un concept pour une application Web ou une application mobile («&nbsp;idée d’application&nbsp;»).</li>
+    </ol>
+    <p>1.3 Pendant la période de sélection, (i) vous pourrez voter en ligne pour l’application qui, selon vous, contribue le mieux à l’amélioration de la collectivité. En même temps, (ii) un jury (le «&nbsp;Jury&nbsp;») examinera et évaluera toutes les applications envoyées au cours de la période de soumission et sélectionnera les gagnants selon cet examen et cette évaluation.</p>
+    <h2>2. COMMENT PARTICIPER&nbsp;: AUCUN ACHAT REQUIS</h2>
+    <p>2.1 Pendant la durée du Concours, rendez-vous sur le site Internet du Concours pour vous inscrire. L’inscription est gratuite. Pour vous inscrire, vous devez remplir le formulaire d’inscription et indiquer votre prénom et nom de famille, votre nom commercial (le cas échéant), votre adresse postale complète avec le code postal ainsi que votre adresse de courriel. Sur le formulaire d’inscription, vous devrez aussi indiquer si vous êtes étudiant («&nbsp;étudiant&nbsp;»), c’est-à-dire une personne qui, au moment de l’inscription, est inscrite à au moins un cours dans un établissement d’enseignement en Ontario qui est un collège public ou privé, un collège communautaire, une université ou une école secondaire. Les employés de la Ville doivent se déclarer et ne sont pas admissibles aux prix ou aux cadeaux promotionnels. Tous les renseignements demandés doivent être fournis et doivent être véridiques et exacts pour que l’inscription au Concours soit valide.</p>
+    <p>2.2 Au cours de la période de soumission, après vous être inscrit et avoir ouvert une session sur le site Internet du Concours, vous pourrez soumettre une application ou une idée d’application. Il n’y a aucune limite au nombre d’idées d’application ou d’applications que vous pouvez soumettre pendant la durée du Concours.</p>
+    <p>2.3 Au cours de la période de sélection, les personnes inscrites pourront ouvrir une session sur le site Internet du Concours et voter en ligne pour l’application qui, selon elles, est la meilleure application qui a été soumise pour la Ville d’Ottawa. Chaque personne ne peut voter qu’une seule fois. Celles qui ne participent pas au Concours, mais qui souhaitent voter sont encouragées à s’inscrire et à voter. Les votes du public détermineront le gagnant du Prix du public.</p>
+    <p>2.4 Les soumissions seront présumées avoir été faites par les détenteurs autorisés des adresses de courriel employées au moment de la soumission. Le détenteur autorisé d’une adresse est la personne physique qui détient une adresse octroyée par un fournisseur de services Internet ou un autre organisme (par exemple&nbsp;: une entreprise ou un établissement d’enseignement) responsable de l’octroi des adresses de courriel pour le domaine associé à l’adresse utilisée. Une personne pourrait devoir présenter une preuve à la Ville qu’elle est la détentrice autorisée de l’adresse de courriel.</p>
+    <h2>3. ADMISSIBILITÉ</h2>
+    <p>3.1 Pour être admissible au Concours, vous devez&nbsp;: a) être un résident autorisé de l’Ontario qui a atteint l’âge de 18&nbsp;ans au moment de l’inscription sur le site Internet du Concours et b) détenir une adresse de courriel valide enregistrée à votre nom, tel que décrit à la section 2.4.</p>
+    <p>3.1.1 Malgré l’âge minimal d’admissibilité au concours stipulé plus haut, à la section 3.1, tout résident autorisé de l’Ontario qui a atteint l’âge de 16 ou 17 ans au moment de l’inscription sur le site Internet du concours peut y participer, pourvu que cette personne respecte toutes les autres exigences des présents règlements officiels. Par exemple, une personne âgée de 16 ou 17 ans et son parent ou son tuteur doivent se conformer aux sections 6.2.1 et 11.2.1 des présents règlements afin que cette personne soit déclarée gagnante d’un prix en argent.</p>
+    <p>3.2 Les membres du Jury n’ont pas le droit de soumettre une application ou une idée d’application et ne sont pas admissibles aux cadeaux promotionnels ou aux prix.</p>
+    <p>3.3 Les employés de la Ville ne sont pas admissibles aux prix ou aux cadeaux promotionnels du Concours, mais peuvent soumettre des idées d’application ou des applications. Le directeur de l’information de la Ville décernera une récompense non pécuniaire pour la meilleure application soumise par un employé de la Ville.</p>
+    <p>3.4 Tous les renseignements personnels et autres renseignements fournis à la Ville en vue de participer à ce Concours doivent être véridiques, exacts et ne doivent pas être trompeurs de quelque façon que ce soit. La Ville, à sa discrétion exclusive, se réserve le droit de disqualifier une personne qui, à n’importe quel moment, fournit des renseignements ou des détails personnels mensongers, incomplets, inexacts ou trompeurs.</p>
+    <p>3.5 La Ville peut, à n’importe quel moment, demander à une personne de fournir, dans un délai raisonnable, une preuve d’identité ou d’admissibilité, faute de quoi elle pourrait être disqualifiée du Concours.</p>
+    <h2>4. COMMENT SOUMETTRE UNE APPLICATION ET CARACTÉRISTIQUES EXIGÉES</h2>
+    <p>4.1 Vous devez remplir le formulaire de soumission d’une application sur le site Internet du Concours pour chaque application que vous souhaitez soumettre au Concours. Pour accéder à ce formulaire, vous devez vous être inscrit et avoir ouvert une session sur le site Internet du Concours. Le formulaire peut être rempli en français ou en anglais. Chaque formulaire de soumission d’une application sera conservé par la Ville et devra contenir les renseignements suivants&nbsp;:</p>
+    <ol style="list-style-type:lower-alpha">
+      <li>
+        La catégorie de l’application sera prise en considération. Les concurrents devront sélectionner l’une des cinq catégories suivantes&nbsp;:
+        <table class="table-alt">
+          <thead>
+            <tr>
+              <th scope="col">Catégorie</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Catégorie&nbsp;1&nbsp;: S’amuser à Ottawa</td>
+              <td>Applications se rapportant aux loisirs et aux activités récréatives à Ottawa, qui utilisent par exemple des données sur les restaurants.</td>
+            </tr>
+            <tr>
+              <td>Catégorie&nbsp;2&nbsp;: Les déplacements</td>
+              <td>Applications se rapportant aux déplacements ou au transport en commun conçues pour aider les gens à se déplacer en ville, qui utilisent par exemple les données sur les pistes cyclables.</td>
+            </tr>
+            <tr>
+              <td>Catégorie 3&nbsp;: Environnement vert&nbsp;/&nbsp;durabilité</td>
+              <td>Applications conçues pour mettre en valeur notre environnement naturel, qui utilisent par exemple des données sur les espaces verts.</td>
+            </tr>
+            <tr>
+              <td>Catégorie&nbsp;4&nbsp;: Développement communautaire</td>
+              <td>Applications conçues pour encourager les gens à se rapprocher les uns des autres et améliorer la qualité de vie à Ottawa, qui utilisent par exemple des données sur les lieux du scrutin.</td>
+            </tr>
+            <tr>
+              <td>Catégorie&nbsp;5&nbsp;: Développement économique</td>
+              <td>Applications conçues pour stimuler la croissance et le développement économique à Ottawa, qui utilisent par exemple de l’information touristique.</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Nom de l’application;</li>
+      <li>Résumé de l’utilité de l’application et de son fonctionnement;</li>
+      <li>Description des données utilisées par l’application;</li>
+      <li>Une adresse URL valide où l’application sera accessible dès le début de la période de sélection accompagnée de directives claires.</li>
+    </ol>
+    <p>4.2 L’application soumise peut être conçue pour des téléphones intelligents, des appareils mobiles ou des ordinateurs personnels. Si une fonctionnalité ou le texte de l’application est dans une langue autre que l’anglais ou le français, la soumission de l’application doit être accompagnée d’une traduction en anglais ou en français. Il est recommandé, mais pas obligatoire, que les applications utilisent des ensembles de données du catalogue Données ouvertes Ottawa. Pour pouvoir remporter un prix, les applications doivent utiliser des données accessibles au public. Le catalogue Données ouvertes Ottawa est accessible à l’adresse <a href="http://www.ottawa.ca/online_services/opendata/index_fr.html" rel="external">http://www.ottawa.ca/online_services/opendata/index_fr.html</a>.</p>
+    <p>4.3 Après la période de soumission et jusqu’à la fin de la période de sélection, vous n’êtes pas autorisé à apporter des modifications ou à faire apporter des modifications aux applications que vous aurez soumises.</p>
+    <p>4.4 Votre application doit être hébergée et publiquement accessible sur votre site Web ou sur le site Internet d’un tiers dès le début et jusqu’à la fin de la période de sélection aux fins de vote du public et d’évaluation du Jury. La Ville vous encourage à laisser votre application en ligne pour une période de six&nbsp;mois après la fin du Concours. Les gagnants du Concours doivent consentir à rendre leur application publiquement disponible pour une durée de trois&nbsp;mois après la signature de la décharge à la section 11.2. Tous les participants qui soumettront une application pour iPhone devront la rendre publiquement accessible au plus tard à la date limite du Concours (mêmes détails que ci-haut) par le biais du App Store pour iPhone de Apple à l’adresse&nbsp;: <a href="http://www.apple.com/ca/iphone/apps-for-iphone/" rel="external">http://www.apple.com/ca/iphone/apps-for-iphone/</a>. Assurez-vous de soumettre votre application pour iPhone bien avant la date limite du Concours, puisque Apple retarde généralement la disponibilité des nouvelles applications d’une semaine ou plus. La Ville ne prolongera pas l’échéance pour une personne dont l’application pour iPhone n’a pas encore été rendue publique sur le App Store au moment du début de la période de sélection.</p>
+    <p>4.5 Vous conservez le droit de propriété de votre application et le droit de vendre son utilisation commercialement après la durée du Concours, si vous le souhaitez.</p>
+    <p>4.6 Vous déclarez et certifiez que&nbsp;: a) votre application est votre création originale, b) votre application est libre de tout virus ou maliciel connu, c) tout ensemble de données et autres documents de tiers de quelque nature que ce soit ont été obtenus du propriétaire légitime avec toutes les permissions, tous les droits et licences nécessaires, y compris, sans s’y limiter, les permissions, droits et licences nécessaires pour octroyer à la Ville le droit d’accorder des licences tel qu’énoncé à la section 4.5, et d) votre application n’enfreint pas les droits d’auteur, la marque de commerce, le droit à la vie privée, le droit à l’image ou les droits de propriété intellectuelle d’une personne ou d’une entité.</p>
+    <p>4.7 Les applications qui ont un contenu que le Jury juge, à sa discrétion exclusive, indécent, diffamatoire, offensant ou qui manque de respect envers la moralité publique ou la conduite morale, ou qui porte atteinte à l’image publique ou à la réputation de la Ville, ne seront pas admises et seront disqualifiées.</p>
+    <h2>5. COMMENT SOUMETTRE UNE IDÉE D’APPLICATION ET CARACTÉRISTIQUES EXIGÉES </h2>
+    <p>5.1 Après vous être inscrit et avoir ouvert une session sur le site Internet du Concours, vous pourrez remplir le formulaire de soumission d’une idée d’application sur le site Internet du Concours pour soumettre votre idée. Vous devez y inclure une description de votre idée ou concept pour une application Web ou mobile.</p>
+    <p>5.2 La Ville se réserve le droit de disqualifier et de supprimer toute idée d’application qu’elle juge, à sa discrétion exclusive, ne pas être une application Web ou mobile, ou être identique ou quasi identique à une idée ou à un concept déjà soumis. Les idées d’application qui ont un contenu que la Ville juge, à sa discrétion exclusive, indécent, diffamatoire, offensant, ou qui manque de respect envers la moralité publique ou la conduite morale, ou qui porte atteinte à l’image publique et à la réputation de la Ville, seront aussi supprimées et disqualifiées. Plus précisément, les idées d’application disqualifiées ne seront considérées pour aucun prix.</p>
+    <h2>6. PRIX</h2>
+    <p>6.1 Les prix comprennent 20 prix en argent (5&nbsp;x&nbsp;5&nbsp;000&nbsp;$; 6&nbsp;x&nbsp;2&nbsp;000&nbsp;$; 5&nbsp;x&nbsp;1&nbsp;000&nbsp;$; 2&nbsp;x&nbsp;3&nbsp;000&nbsp;$ et 3&nbsp;x&nbsp;500&nbsp;$) pour un total de 49&nbsp;500&nbsp;$. Les utilisateurs inscrits sont aussi admissibles aux cadeaux promotionnels (voir section&nbsp;8.1).</p>
+    <p>6.2 Chaque gagnant du Concours est le seul responsable de l’usage qu’il fait de son prix. Les prix doivent être acceptés comme tels et ne peuvent être transférés, substitués ou échangés contre une somme d’argent. La Ville se réserve le droit, à sa discrétion exclusive, de substituer un ou tous les prix pour d’autres prix de valeur égale si un des prix décrits ne peut pas être remis. La Ville n’est nullement responsable des facteurs hors de contrôle raisonnable qui pourraient l’empêcher de remettre les prix. Dans un tel cas, aucun prix substitut ou équivalent en argent ne sera remis. Des prix seront remis seulement aux gagnants certifiés.</p>
+    <p>6.2.1 Bien que les présents règlements stipulent que la Ville remettra des prix en argent aux gagnants certifiés et, plus particulièrement, à la section 6.2, que « des prix seront remis seulement aux gagnants certifiés », les prix en argent remportés par des personnes âgées de 16 ou 17 ans seront seulement remis au parent ou au tuteur légal au nom du gagnant.</p>
+    <p>6.3 La Ville se réserve le droit de ne pas remettre de prix, ou de ne remettre qu’une partie des prix, si le nombre d’inscriptions valides au Concours est insuffisant ou, si pour quelque raison que ce soit, il n’y a pas un nombre suffisant de personnes auxquelles les prix peuvent être remis. La Ville se réserve aussi le droit, à sa discrétion exclusive, de choisir un autre gagnant parmi les concurrents si une personne sélectionnée est incapable ou refuse de se conformer au présent règlement, ou est autrement incapable ou refuse d’accepter son prix.</p>
+    <h2>7. COMMENT REMPORTER UN PRIX DU JURY POUR UNE APPLICATION SOUMISE</h2>
+    <p>7.1 Prix du Jury pour les applications soumises&nbsp;:</p>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" class="prize">Niveaux de prix</th>
+          <th scope="col">Catégorie 1</th>
+          <th scope="col">Catégorie 2</th>
+          <th scope="col">Catégorie 3</th>
+          <th scope="col">Catégorie 4</th>
+          <th scope="col">Catégorie 5</th>
+          <th scope="col">Meilleure application toutes catégories confondues</th>
+          <th scope="col">Meilleure application faite par un étudiant</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Or</th>
+          <td>1 × 5&nbsp;000&nbsp;$</td>
+          <td>1 × 5&nbsp;000&nbsp;$</td>
+          <td>1 × 5&nbsp;000&nbsp;$</td>
+          <td>1 × 5&nbsp;000&nbsp;$</td>
+          <td>1 × 5&nbsp;000&nbsp;$</td>
+          <td>1 × 3&nbsp;000&nbsp;$</td>
+          <td>1 × 3&nbsp;000&nbsp;$</td>
+        </tr>
+        <tr>
+          <th scope="row">Argent</th>
+          <td>1 × 2&nbsp;000&nbsp;$</td>
+          <td>1 × 2&nbsp;000&nbsp;$</td>
+          <td>1 × 2&nbsp;000&nbsp;$</td>
+          <td>1 × 2&nbsp;000&nbsp;$</td>
+          <td>1 × 2&nbsp;000&nbsp;$</td>
+          <td>n/a</td>
+          <td>n/a</td>
+        </tr>
+        <tr>
+          <th scope="row">Bronze</th>
+          <td>1 × 1&nbsp;000&nbsp;$</td>
+          <td>1 × 1&nbsp;000&nbsp;$</td>
+          <td>1 × 1&nbsp;000&nbsp;$</td>
+          <td>1 × 1&nbsp;000&nbsp;$</td>
+          <td>1 × 1&nbsp;000&nbsp;$</td>
+          <td>s.o.</td>
+          <td>s.o.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>7.2 Au début de la période de sélection, le Jury, composé d’un représentant de la Ville, de deux membres du milieu des affaires, de deux membres du public et de deux membres de la communauté universitaire, évaluera les applications soumises dans chaque catégorie selon les critères suivants&nbsp;:</p>
+    <ol style="list-style-type:lower-alpha">
+      <li>Utilité – utilité pour les citoyens d’Ottawa en général ou un groupe démographique en particulier;</li>
+      <li>Originalité – caractère unique et novateur de l’application;</li>
+      <li>Convivialité – facilité d’utilisation générale de l’application;</li>
+      <li>Accessibilité – capacité de l’application à être utilisée par de nombreux types de citoyens.</li>
+    </ol>
+    <p>7.3 Le Jury se fondera sur les critères énumérés à la section&nbsp;7.2 pour sélectionner les trois&nbsp;(3) meilleures applications soumises dans chacune des cinq (5) catégories, pour un total de quinze (15)&nbsp;gagnants. Les cinq catégories sont classées en niveau Or (5&nbsp;000&nbsp;$), Argent (2&nbsp;000&nbsp;$) et Bronze (1&nbsp;000&nbsp;$).</p>
+    <p>7.4 Le Jury sélectionnera un gagnant pour la meilleure application toutes catégories confondues parmi les cinq gagnants des Prix de catégorie Or, toujours selon les critères énumérés à la section 7.2, et lui décernera un (1)&nbsp;prix de 3&nbsp;000&nbsp;$ en plus du montant de 5&nbsp;000&nbsp;$ attribué pour le Prix de catégorie Or.</p>
+    <p>7.5 Le Jury sélectionnera la meilleure application conçue par un étudiant selon les critères énumérés à la section&nbsp;7.2. Seules les soumissions d’applications faites par des personnes qui satisfont la définition d’un étudiant énoncée à la section&nbsp;2.1 seront admissibles à ce prix. Le lauréat se verra décerner un (1)&nbsp;prix de 3&nbsp;000&nbsp;$. Un étudiant peut également remporter un Prix de catégorie et le Prix pour la meilleure application toutes catégories confondues.</p>
+    <h2>8. COMMENT OBTENIR UN CADEAU PROMOTIONNEL POUR AVOIR SOUMIS UNE APPLICATION</h2>
+    <p>8.1 Les utilisateurs inscrits qui auront soumis une application valide pourront recevoir une clé&nbsp;USB de 2 gigaoctets. Dans les deux semaines suivant la clôture du Concours, un représentant de la Ville communiquera avec les utilisateurs inscrits admissibles à ce cadeau promotionnel, et ceux-ci pourront prendre des dispositions pour se le faire livrer ou aller le chercher. Limite d’un seul cadeau promotionnel par utilisateur inscrit qui a soumis une ou plus d’une application.</p>
+    <h2>9. COMMENT REMPORTER LE PRIX DU PUBLIC</h2>
+    <p>9.1 Le gagnant du Prix du public sera déterminé exclusivement par les votes sur le site Internet du Concours pendant la période de sélection. La personne qui reçoit le plus de votes remportera le Prix du public, d’une valeur de 2&nbsp;000&nbsp;$. Si deux applications ou plus se retrouvent ex æquo, le montant du prix sera divisé en conséquence. Le gagnant du Prix du public peut également remporter d’autres prix du Concours.</p>
+    <h2>10. COMMENT REMPORTER UN PRIX POUR UNE IDÉE D’APPLICATION</h2>
+    <p>10.1 Un tirage au sort de toutes les idées d’application soumises aura lieu le 29&nbsp;janvier&nbsp;2010. Un membre du Jury, qui est aussi membre du public, procédera au tirage en présence du représentant de la Ville qui siège sur le Jury et choisira au sort et de façon consécutive trois idées d’application parmi toutes les idées d’application valides reçues par la Ville par le site Internet du Concours pendant la période de soumission. Les trois (3)&nbsp;personnes dont les idées sont pigées recevront chacune 500&nbsp;$. De nouvelles idées d’application seront pigées si le membre du Jury pige plus d’une idée d’application soumise par une même personne. Vos chances de gagner un Prix pour une idée d’application dépendent du nombre d’idées d’application reçues.</p>
+    <h2>11. AVIS AUX GAGNANTS ET CONFIRMATION</h2>
+    <p>11.1 La Ville tentera de joindre les gagnants des Prix du Jury pour les applications soumises, des Prix pour les idées d’application et du Prix du public pendant cinq (5)&nbsp; jours ouvrables consécutifs aux coordonnées fournies lors de l’inscription au Concours. Si aucune réponse n’a été reçue à la fin de cette période, un autre gagnant sera sélectionné.</p>
+    <p>11.2 Avant d’être déclarée gagnante, la personne qui satisfait aux exigences de son prix devra signer un accord juridique et une décharge («&nbsp;décharge&nbsp;») confirmant&nbsp;: a) qu’elle est admissible au Concours; b) qu’elle s’engage à respecter ce règlement officiel; c) qu’elle libère la Ville et ses fonctionnaires, mandataires, employés, entrepreneurs, détenteurs de permis et cessionnaires de toute responsabilité liée à tout préjudice, perte, dommage, coût ou dépense résultant de la participation au Concours ou de l’acceptation, possession ou mauvais usage d’un prix, y compris mais de façon non limitative les coûts, blessures, pertes résultant de préjudice personnel, décès, l'endommagement, la perte ou la destruction de biens, les atteintes au droit à l’image ou au droit à la vie privée, les diffamations et les représentations mensongères, ou de toute autre réclamation présentée par une tierce partie; d) qu’elle accorde à la Ville le droit illimité de publier, sans autre compensation, son nom, sa ville de résidence, sa photographie, son nom commercial (le cas échéant) et l’établissement d’enseignement qu’elle fréquente (le cas échéant) ainsi que toute diffusion d’un site Internet à des fins publicitaires et de promotion du Concours ainsi que pour remettre et annoncer les prix; et e) qu’elle consent à rendre son application gagnante publiquement disponible pendant trois mois suivant la date de signature de la décharge. La décharge peut aussi contenir d’autres modalités, à la discrétion exclusive de la Ville. La décharge doit être retournée à la Ville au plus tard à la date inscrite sur le document, sans quoi le ou les prix seront perdus à forfait et pourront être attribués à un autre gagnant.</p>
+    <p>11.2.1 Malgré la mention du « gagnant » et du « gagnant du Concours » dans les présents règlements et particulièrement à la section 11.2, le parent ou le tuteur légal du gagnant d’un prix en argent âgé de 16 ou 17 ans devra signer la décharge. Pour favoriser la clarté, un concurrent âgé de 16 ou 17 ans doit s’assurer de répondre à ces exigences dans les délais impartis dans les présents règlements officiels, à défaut de quoi un autre gagnant sera sélectionné.</p>
+    <p>11.3 Chaque gagnant d’un prix en argent devra répondre correctement à une question réglementaire d'arithmétique afin de recevoir son prix.</p>
+    <p>11.5 Les personnes qui sont admissibles au cadeau promotionnel seront jointes par la Ville et recevront leur cadeau tel que décrit à la section&nbsp;6.</p>
+    <h2>12 CONDITIONS GÉNÉRALES</h2>
+    <p>12.1 La Ville n’endosse aucune responsabilité en ce qui concerne une soumission perdue, reçue en retard, mal acheminée ou incomplète, ou en ce qui concerne tout mauvais fonctionnement d’un ordinateur, d’une connexion Internet, d’un téléphone ou de toute autre technologie qui pourrait survenir pendant le traitement, la transmission ou la réception des soumissions.</p>
+    <p>12.2 La Ville se réserve le droit, à sa discrétion exclusive, de disqualifier une personne qui trafique le processus de soumission.</p>
+    <p>12.3 En participant au Concours, vous acceptez de respecter les modalités du présent règlement officiel et les décisions du Jury, lesquelles sont définitives et ont force exécutoire relativement à tout ce qui a trait au présent Concours. La Ville et le Jury se réservent le droit, à leur discrétion exclusive, de disqualifier toute personne qui ne respecte pas une ou plusieurs modalités du règlement officiel.</p>
+    <p>12.4 La Ville se réserve le droit d’annuler, de modifier ou de suspendre le Concours à n’importe quel moment sous réserve des lois en vigueur, si la Ville juge que le Concours ne peut pas être tenu de la manière planifiée ou si l’équité ou l’intégrité du Concours est compromise par la fraude ou toute autre situation.</p>
+    <p>12.5 Le Concours est soumis aux lois du Canada et de la province de l’Ontario. Toutes les lois fédérales, provinciales et municipales ainsi que les règlements afférents s’appliquent.</p>
+    <h2>13 CONFIDENTIALITÉ</h2>
+    <p>13.1 En participant au Concours, vous comprenez que vos renseignements personnels (y compris votre nom, adresse, courriel) seront recueillis par la Ville pour des raisons d’administration du Concours et consentez à ce que vos renseignements personnels soient recueillis et utilisés.</p>
+    <p>13.2 Advenant le cas où vous êtes choisi comme gagnant du Concours, vous consentez à ce que votre nom, ville de résidence, photographie, nom commercial (le cas échéant) et l’établissement d’enseignement que vous fréquentez (le cas échéant) soient publiquement diffusés par la Ville, y compris, sans s’y limiter, sur le site Internet du Concours et par d’autres médias accessibles au grand public.</p>
+    <p>13.3 Vos renseignements personnels sont recueillis en vertu des articles&nbsp;8 à 10 de la Loi de 2001 sur les municipalités L.O. 2001, c. 25 pour les fins décrites dans les sections&nbsp;13.1 et 13.2. Pour toute question concernant la collecte, l’utilisation et la divulgation de vos renseignements personnels, veuillez vous adresser au gestionnaire de programme, Architecture de la GI/TI, Ville d’Ottawa, Service de technologie de l’information, 613-580-2424, 110, avenue Laurier Ouest, Ottawa, Ontario  K1P 1J1.</p>
+    <h2>14 LIMITATION DE RESPONSABILITÉ</h2>
+    <p>14.1 En participant au Concours, vous acceptez d’exonérer et de dégager la Ville, ses sociétés mères, filiales ou affiliées, directeurs, agents, employés et mandataires de toute responsabilité liée à une blessure, perte ou préjudice de quelque nature que ce soit résultant du Concours ou d’un prix remporté ou y étant liée.</p>
+
+  prizes_body: |
+    <p>Pour chaque catégorie, les prix sont gradués (ex.&nbsp;: or, argent, bronze). Un prix sera remis pour la «&nbsp;Meilleure application&nbsp;», et un autre prix est réservé à la communauté étudiante.</p>
+    <p>Le tableau suivant illustre la structure des prix et les catégories de participants.</p>
+  prizes_table_summary: "Structure of the prizes per prize category. Nineteen different prizes, totally $50 000."
+  gold: "Or"
+  silver: "Argent"
+  bronze: "Bronze"
+  best_overall: "Meilleure application"
+  best_student: "Meilleure application – Étudiant"
+  peoples_choice: "Choix du public"
+  draw_prizes: "Prix de participation"
+  giveaways: "Cadeaux promotionnels"
+
+  award_criteria: "Critères de sélection"
+  award_criteria_body: |
+    <p>Les critères de sélection comprendront les suivants&nbsp;:</p>
+    <ul>
+    <li>L’<strong>utilité</strong> pour les résidents d’Ottawa en général ou pour tout ensemble d’utilisateurs particulier à Ottawa.</li>
+    <li>L’<strong>originalité</strong>, le caractère unique et ingénieux de l’application.</li>
+    <li>La <strong>convivialité</strong>, le caractère fonctionnel de l’application.</li>
+    <li>L’<strong>accessibilité</strong> de l’application à une grande partie de la population.</li>
+    </ul>
+
+  judges_body: |
+    <p>Les inscriptions validées seront jugées par les personnes suivantes selon les catégories et les critères énoncés cidessous. Les jurés détermineront les vainqueurs pour tous les prix à l’exception du Prix du choix du public, dont le vainqueur sera choisi à l’issue d’un vote sur le site Web.</p>
+    <p>Le jury du concours sera composé de :</p>
+    <ul>
+    <li>Conseillère Wilkinson (présidente du Sous-comité de la technologie de l’information)</li>
+    <li>Éric Marois (La Cité collégiale)</li>
+    <li>Claude Haw (OCRI)</li>
+    <li>Rick O’Conner (The Ottawa Network)</li>
+    <li>Tracey Lauriault</li>
+    <li>Cameron Wilson</li>
+    <li>Gerald Grant (Université Carleton)</li>
+    </ul>
+
+  faq_body: |
+    <dt>Comment choisit-on les gagnants?</dt>
+    <dd>
+    <p>Les inscriptions au concours seront examinées par un jury composé d’un représentant de la Ville, de deux membres du milieu des affaires, de deux membres du public et de deux personnes du milieu universitaire.</p>
+    <p>Le jury sélectionnera les gagnants selon les critères suivants&nbsp;:</p>
+    <ul>
+    <li>L’<strong>utilité</strong> pour les résidents d’Ottawa en général ou pour tout ensemble d’utilisateurs particulier à Ottawa.</li>
+    <li>L’<strong>originalité</strong>, le caractère unique et ingénieux de l’application.</li>
+    <li>La <strong>convivialité</strong>, le caractère fonctionnel de l’application.</li>
+    <li>L’<strong>accessibilité</strong> de l’application à une grande partie de la population.</li>
+    </ul>
+    <p>Le Prix du choix du public sera décerné à l’issue d’un vote du public.</p>
+    </dd>
+    <dt>Que signifient les différentes catégories du concours? Quels sont les critères de chaque catégorie? Mon application peutelle faire partie de plus d’une catégorie?</dt>
+    <dd>
+    <p>Les catégories du concours visent à rendre compte de la diversité à Ottawa et à encourager la conception d’un large éventail d’applications pour améliorer la qualité de vie dans la Ville.</p>
+    <p><em>Se divertir à Ottawa (arts et divertissements)&nbsp;:</em> Applications qui portent sur les loisirs et le plaisir à Ottawa (ex.&nbsp;: données sur les restaurants).</p>
+    <p><em>Se déplacer (le transport, notamment le transport en commun)&nbsp;:</em> Applications conçues pour aider les gens à se déplacer dans la ville (ex.&nbsp;: données sur les pistes cyclables).</p>
+    <p><em>L’environnement et la durabilité (préservation de l’environnement et durabilité)&nbsp;:</em> Applications conçues pour contribuer à la préservation de notre environnement naturel (ex.&nbsp;: données sur la localisation des espaces verts).</p>
+    <p><em>Le développement communautaire&nbsp;:</em> Applications conçues pour encourager la création de liens entre les gens et améliorer la qualité de vie à Ottawa (ex.&nbsp;: données sur les lieux de scrutin).</p>
+    <p><em>Le développement économique&nbsp;:</em> Applications conçues pour stimuler la croissance et le développement économique à Ottawa (ex.&nbsp;: renseignements touristiques).</p>
+    </dd>
+    <dt>Qu’est-ce qu’une idée d’application?</dt>
+    <dd>
+    <p>Il est important de souligner que le concours ne s’adresse pas qu’aux concepteurs Web, mais à l’ensemble de la population. Les idées de chacun sur la façon de perfectionner la technologie sont nécessaires pour améliorer la qualité de vie à Ottawa. À cette fin, le concours est ouvert aux idées de tous, mais il est difficile de juger d’une idée; elles sont toutes bonnes! C’est pourquoi toutes les personnes ayant pris le temps de soumettre leur idée seront récompensées. Si vous avez une idée d’application, mais que vous ne savez pas comment la concrétiser, soumettezla et vous courrez la chance de gagner un appareil portatif lors d’un tirage au sort.</p>
+    </dd>
+    <dt>Est-ce que mon application est admissible même si elle utilise des données commerciales?</dt>
+    <dd><p>Tant que ces données commerciales sont accessibles au public, vous pouvez les utiliser.</p></dd>
+    <dt>Comment puisje soumettre mes idées et mon application au concours?</dt>
+    <dd>
+    <p>Vous devez remplir le formulaire fourni et y inscrire votre nom, le nom de votre entreprise (s’il y a lieu) et vos adresses postale et électronique.</p>
+    <p>Toutes les applications doivent être accessibles au public et hébergées sur le site Internet du participant ou d’un tiers. Tous les participants qui soumettent une application pour iPhone doivent la rendre accessible au public avant la date d’échéance des inscriptions, soit le 3 janvier 2011 à 17 h (heure de l’Est), par l’intermédiaire du App Store pour iPhone de Apple à l’adresse suivante (en anglais seulement)&nbsp;: <a href="http://www.apple.com/ca/iphone/apps-for-iphone/" rel="external">http://www.apple.com/ca/iphone/apps-for-iphone/</a>.</p>
+    </dd>
+    <dt>Est-ce que mon application doit rester fonctionnelle après le concours?</dt>
+    <dd><p>Oui, afin que leur utilisation soit bien concrète pour les résidents, toutes les applications soumises au concours doivent demeurer accessibles au public pour une période minimale de six mois après la date d’échéance des inscriptions.</p></dd>
+    <dt>Une fois mon application soumise, la Ville d’Ottawa en devientelle propriétaire?</dt>
+    <dd><p>Nous souhaitons que votre création vous permette de prospérer. Les concepteurs des applications soumises dans le cadre du concours en demeurent propriétaires et sont autorisés à les commercialiser s’ils le souhaitent.</p></dd>
+    <dt>Puis-je soumettre plusieurs idées ou applications au concours?</dt>
+    <dd><p>Absolument! Nous voulons connaître toutes vos idées.</p></dd>
+    <dt>Qui est admissible?</dt>
+    <dd><p>Vous devez être résident de l’Ontario et âgé de plus de 18 ans pour participer au concours.</p></dd>
+    <dt>Quelle est votre définition d’«&nbsp;étudiant&nbsp;»?</dt>
+    <dd><p>Aux fins de ce concours, un étudiant est une personne inscrite à au moins un cours à unité dans un des types d’établissement d’enseignement suivants en Ontario&nbsp;: école secondaire, université publique, université privée, collège public et collège privé d’enseignement professionnel.</p></dd>
+    <dt>Peut-on s’inscrire en équipe?</dt>
+    <dd><p>Oui, le travail d’équipe stimule la créativité. Les prix en argent devront être partagés entre les coéquipiers.</p></dd>
+    <dt>Si mon concept ou mon application a été mis au point il y a des années, peut-il quand même se qualifier pour le concours?</dt>
+    <dd><p>Oui, tant que c’est profitable pour les résidents et les visiteurs d’Ottawa, vous êtes libres d’intégrer un programme que vous avez déjà conçu ou lancé auparavant.</p></dd>
+    <dt>Puis-je modifier ma soumission?</dt>
+    <dd><p>Votre application sera hébergée sur le site d’un tiers. N’hésitez pas à modifier votre application pendant le concours, mais n’oubliez pas que tout changement effectué après la date d’échéance, soit le 3 janvier 2011 à 17 h (heure de l’Est), ne sera pas pris en compte par le jury. Si vous devez effectuer un changement sur votre formulaire, branchez-vous sur votre compte et procédez aux changements avant la fin du concours.</p></dd>
+
+  terms_body: |
+    <p>Les renseignements qui apparaissent dans ce site Web sont fournis à titre de renseignements généraux. Ils ne sont en aucune manière des avis ou des conseils juridiques destinés à quiconque ni à une quelconque utilisation et ne doivent pas être considérés comme tels.</p>
+    <p>Même s’il fait tout en son possible pour veiller à l’exactitude et à la véracité des renseignements contenus dans ce site Web, le Conseil de transition de la ville d’Ottawa ne peut aucunement être tenu responsable de tout préjudice pouvant être causé par l’utilisation de ce site. Même s’il fait appel à des sources fiables et croit que les renseignements véhiculés par le site sont exacts et régulièrement tenus à jour, la Ville d’Ottawa ne donne aucune garantie que ces renseignements soient exacts ni complets.</p>
+    <p>La Ville d’Ottawa se réserve le droit de supprimer, changer ou modifier ce site en tout temps et sans préavis.</p>
+    <p>La Ville d’Ottawa n’est en aucun cas responsable de la précision des traductions quand vous utilisez l’outil de traduction GoogleTM. GoogleTM traduction est un logiciel de traduction automatisée d’une tierce partie et il peut faire des erreurs qu’un traducteur humain qualifié ne ferait pas.</p>
+    <p>Les liens vers d’autres sites Web ou les renvois à d’autres organismes, produits, services ou publications ne sont pas nécessairement sanctionnés par la Ville d’Ottawa, lequel ne représente en aucune façon tout autre site Web auquel vous pouvez accéder par le biais de celui-ci.</p>
+    <p>La Ville d’Ottawa ne peut être tenu responsable d’aucun préjudice, notamment de préjudices résultant de la transmission de renseignements confidentiels sur Internet.</p>
+    <p>La Ville d’Ottawa se réserve le droit de réviser, supprimer, modifier, valider ou changer, intégralement ou en partie, tout matériel envoyé à notre site Web ou affiché sur celui-ci.</p>
+    <p>Tous les renseignements contenus dans ce site sont protégés par la Loi canadienne sur le droit d’auteur. Nul ne peut, sans autorisation, copier, redistribuer, reproduire ou republier, sous quelque forme que ce soit, tout matériel fourni dans ce site Web.</p>
+
+  privacy_body: |
+    <h2>Objet</h2>
+    <p>Le présent document a pour objet de renseigner les utilisateurs et les utilisatrices du site sur la collecte et l’utilisation d’information nominative. Ce qui suit ne se veut pas un contrat implicite ou explicite et ne devrait, en aucun cas, être interprété comme tel.</p>
+    <h2>Définition</h2>
+    <p>Le terme « information nominative » désigne ici toute donnée ou tout renseignement à propos d’une personne dont l’identité est connue ou pourrait être déterminée.</p>
+    <h2>Information nominative demandée</h2>
+    <p>Règle générale, les citoyens et les citoyennes n’ont pas à donner d’information nominative pour visiter le portail de la Ville d’Ottawa ou télécharger de l’information. Néanmoins, les autorités municipales peuvent, dans certains cas, avoir besoin de renseignements à caractère personnel pour répondre à une demande de services spécialisés, et ces renseignements sont alors traités de la même manière que ceux fournis lors d’une visite en personne à un bureau de la Ville.</p>
+    <h2>Information nominative disponible</h2>
+    <p>L’adresse IP (adresse numérique Internet) des ordinateurs (serveurs) qui visitent les sites de la Ville d’Ottawa est notée à des fins statistiques, pour nous permettre d’améliorer la conception et l’accès. La Ville ne cherche toutefois pas à acquérir des informations nominatives sur les utilisateurs et utilisatrices ou à les associer à des adresses particulières.</p>
+    <h2>Protection des renseignements personnels</h2>
+    <p>La Ville d’Ottawa a ses utilisateurs et utilisatrices à cœur. Elle ne vend ni ne loue à qui que ce soit l’information les concernant. Elle ne divulgue aucune information nominative ou susceptible d’identifier ses utilisateurs ou utilisatrices à des tiers indépendants, sauf lorsque légalement tenue de le faire. Elle tâche de recueillir le minimum d’information requis pour remplir la mission du réseau.</p>
+    <h2>Autres sites Web</h2>
+    <p>Le portail comporte des liens pointant à divers sites extérieurs. Les personnes qui visitent ces sites sont encouragées à lire leurs politiques en matière de confidentialité et invitées à prendre garde de ne pas fournir de l’information nominative sans comprendre à quoi elle servira. La Ville d’Ottawa encourage aussi les utilisateurs et utilisatrices à consulter les lignes directrices sur la confidentialité recommandées par la Online Privacy Alliance [alliance pour la protection de la confidentialité en ligne].</p>
+    <h2>Collecte, utilisation et conservation d’information sur les utilisateurs et utilisatrices du portail</h2>
+    <p>La Ville d’Ottawa enregistre à des fins statistiques l’adresse IP de chaque personne qui visite le portail, le type de navigateur utilisé, la date et l’heure de la visite, ainsi que les pages consultées.</p>
+    <p>La Ville recueille, utilise et conserve des renseignements personnels seulement dans les cas où elle le juge nécessaire (et où la loi le permet) pour administrer les services et fournir à l’utilisateur ou à l’utilisatrice les produits, services ou renseignements demandés.</p>
+    <h2>Méthode de collecte de données</h2>
+    <p>Afin de recueillir des données pour la préparation de rapports statistiques qui nous permettront d’améliorer notre site Web, nous utilisons actuellement un progiciel d’analytique appelé WebTrends. Les données recueillies par WebTrends ne sont rattachées à aucune information permettant d’identifier l’utilisateur, dont la vie privée et l’anonymat sont préservés en tout temps. Ces données, ainsi que les rapports soumis à la Ville, servent à améliorer notre site Web. WebTrends maintient la confidentialité de ces renseignements et ne les divulgue qu’à la Ville. Pour en savoir davantage sur notre fournisseur de services d’analytique, veuillez consulter le site <a href="http://webtrends.com" rel="external">webtrends.com</a>.</p>
+    <p>Nous nous servons également de témoins de session dans le site Web de la Ville afin de traiter les services demandés (p. ex., l’inscription à des cours). Le témoin de session est un petit fichier qui emmagasine de l’information et qui est supprimé quand l’utilisateur quitte le navigateur. Le site Web de la Ville utilise cette méthode pour recueillir des données ne permettant pas d’identifier l’utilisateur et ne pouvant, par conséquent, servir à d’autres fins que l’analyse statistique.</p>
+    <h2>Protection des renseignements personnels</h2>
+    <p>La Ville d’Ottawa ne vend ni ne loue à qui que ce soit l’information concernant ses utilisateurs ou utilisatrices. Elle ne divulgue aucune information nominative ou donnée susceptible d’identifier ses utilisateurs ou utilisatrices à des tiers indépendants, sauf lorsque légalement tenue de le faire.</p>
+    <h2>Procédures de sécurité</h2>
+    <p>Parfois, en raison d’améliorations apportées à la sécurité Internet, lesquelles sont nécessaires pour la protection de nos utilisateurs, les navigateurs plus anciens ne peuvent plus accéder au site ottawa.ca. Si votre navigateur est incapable d’établir une connexion protégée, veuillez envisager de le mettre à niveau pour accéder au contenu protégé.</p>
+    <h2>Personnel autorisé à consulter l’information</h2>
+    <p>L’accès à l’information nominative est restreint aux fonctionnaires municipaux qui ont besoin de cette information pour remplir leurs fonctions. Le directeur ou la directrice veille à ce que les fonctionnaires respectent les restrictions et protègent l’information nominative.</p>
+    <h2>Accès à l’information</h2>
+    <p>La Ville d’Ottawa s’efforce de rendre son information accessible au public. Certains des documents en sa possession contiennent toutefois des renseignements à caractère privilégié ou personnel. La Loi sur l’accès à l’information municipale et la protection de la vie privée oblige la municipalité à vérifier le contenu de tels documents avant de les divulguer. Toute demande d’accès à l’information doit être présentée par écrit.</p>
+
+  mfippa: |
+    <p><small>Personal information is collected under the authority of sections 8 to 10 of Municipal Act, 2001 SO. 2001, c. 25, for the purposes of operating and administering the Apps4Ottawa Contest.</small></p>
+    <p><small>All questions regarding the collection, use and disclosure of your personal information may be directed to the Program Manager, IM/IT Architecture, City, Information Technology Services Department, 613-580-2424, 110 Laurier Avenue West, Ottawa, ON K1P 1J1.</small></p>
+
+  errors:
+    attachment_size: "ne doit pas dépasser 2 Mo."
+    attachment_type: "doit être au format jpeg, gif, ou png."
+    template:
+      header:
+        one: "1 erreur a empêché la sauvegarde de cette %{model}"
+        other: "%{count} erreurs ont empêché la sauvegarde de cette %{model}"
+      body: "Des problèmes ont été relevés aux champs suivants :"
+
+  activerecord:
+    errors:
+      messages:
+        taken: "a déjà été choisie"
+        record_invalid: "Validation failed: %{errors}"
+      models:
+        app:
+          attributes:
+            name:
+              blank: " "
+            description:
+              blank: " "
+            data_sets:
+              blank: " "
+            resident_value:
+              blank: " "
+        idea:
+          attributes:
+            name:
+              blank: " "
+            description:
+              blank: " "
+        user:
+          attributes:
+            name:
+              blank: " "
+            email:
+              blank: " "
+            current_password:
+              blank: " "
+    models:
+      apps: ""
+      ideas: ""
+    attributes:
+      app:
+        name: "Titre de l’idée"
+        description: "Fonction"
+        data_sets: "Sources de données utilisées"
+        resident_value: "Atouts de l’application pour les résidents"
+        screenshot_content_type: "L'image"
+        screenshot_file_size: "La taille de l'image"
+      idea:
+        name: "Titre de l’idée"
+        description: "Fonction"
+      user:
+        name: "Nom"
+        email: "Courriel"
+        current_password: "Confirmer vos changement"

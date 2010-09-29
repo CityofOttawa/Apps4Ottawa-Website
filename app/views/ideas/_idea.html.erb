@@ -1,0 +1,17 @@
+<%= form_for(@idea, :path_prefix => I18n.locale) do |f| %>
+  <%= f.error_messages %>
+  
+  <fieldset class="field-group">
+    <div class="field field-block">
+      <%= f.label :name, I18n.t(:name) %>
+      <%= f.text_field :name %>
+    </div>
+    <div class="field field-block">
+      <%= f.label :description, I18n.t(:description) %>
+      <%= f.text_area :description %>
+    </div>
+  </fieldset>
+  <div class="button-group">
+    <%= f.submit t(:create), :class => 'btn' %>
+  </div>
+<% end %>

@@ -1,0 +1,71 @@
+<% content_for :title do %>
+  <%=h @idea.name %> · <%=t :ideas_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="secondary intro-box action">
+    <div class="intro-box-wrapper clearfix">
+    <% if Apps4ottawa::Application::ALLOW_IDEA_VOTING == true %>
+      <strong class="votes"><%= @idea.rating %> <%= (@idea.rating != 1) ? t(:votes) : t(:vote) %></strong>
+      <% if current_user %>
+        <% if !@idea.idea_ratings.exists?(:user_id => current_user.id) && current_user.idea_ratings.empty? then %>
+          <form method="post" action="/<%= I18n.locale %>/ideas/<%=h @idea.id %>/like" class="inline vote">
+            <input type="hidden" name="_method" value="put">
+            <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+            <button type="submit" class="btn btn-alt"><%=t :vote %></button>
+          </form>
+        <% end %>
+      <% else %>
+        <p class="body signin"><%= link_to t(:'devise.common.sign_in'), new_user_session_path %> <%=t :or %> <%= link_to t(:'devise.registrations.link'), new_user_registration_path %> <%=t :to_vote %>.</p>
+      <% end %>
+    <% else %>
+      <p class="desc"><%=t :come_back_vote %></p>
+    <% end %>
+    </div>
+  </div>
+  <div class="primary">
+    <h1 id="summary"><%=h @idea.name %></h1>
+    <p class="author"><%=h @idea.user.name %></p>
+    <% if current_user && (@idea.user == current_user || current_user.admin?) %>
+      <div class="user-tools">
+        <a href="/<%= I18n.locale %>/ideas/<%=h @idea.id %>/edit" class="edit"><%=t :edit %></a> · 
+        <%= form_for(@idea, :url => { :controller => 'ideas', :action => 'destroy', :locale => I18n.locale, :id => @idea.id }, :html => { :class => 'inline', :method => 'delete' }) do |f| %>
+          <button type="submit" class="btn-simple delete"><%=t :delete %></button>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <div class="box"><%= simple_format h(@idea.description) %></div>
+  
+    <h2><%=t :comments %></h2>
+    <ol class="hfeed comments">
+    <% @idea.idea_comments.each do |comment| %>
+      <li class="hentry comment">
+        <strong><%=h comment.user.name %></strong>
+        <%= simple_format h(comment.comment) %>
+      </li>
+    <% end %>
+    </ol>
+  
+    <% if current_user then %>
+      <%= form_for(IdeaComment.new) do |f| %>
+        <fieldset class="field-group">
+          <div class="field field-block">
+            <%= f.hidden_field :idea_id, :value => @idea.id %>
+            <%= f.label :comment, t(:comment) %>
+            <%= f.text_area :comment %>
+          </div>
+        </fieldset>
+        <div class="button-group">
+          <button type="submit" class="btn"><%=t :comment %></button>
+        </div>
+      <% end %>
+    <% else %>
+      <p><%= link_to t(:'devise.common.sign_in'), new_user_session_path %> <%=t :or %> <%= link_to t(:'devise.registrations.link'), new_user_registration_path %> <%=t :to_comment %>.</p>
+    <% end %>
+  </div>
+</div>

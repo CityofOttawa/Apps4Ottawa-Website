@@ -1,0 +1,27 @@
+<% content_for :title do %>
+  <%=t :'devise.labels.resend_confirmation' %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <div class="primary">
+    <h1 id="summary"><%=t :'devise.labels.resend_confirmation' %></h1>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post }) do |f| %>
+      <%= devise_error_messages! %>
+    
+      <fieldset class="field-group">
+        <div class="field field-block">
+          <%= f.label :email, t(:'devise.labels.email') %>
+          <%= f.text_field :email %>
+        </div>
+      </fieldset>
+      <div class="button-group">
+        <%= f.submit t(:'devise.labels.resend_confirmation'), :class => 'btn' %>
+      </div>
+    <% end %>
+  </div>
+</div>

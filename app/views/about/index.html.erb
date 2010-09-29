@@ -1,0 +1,156 @@
+<% content_for :title do %>
+  <%=t :about_title %> · <%=t :title %>
+<% end %>
+
+<% content_for :banner do %>
+  <nav class="secondary intro-box subnav-group" role="navigation">
+    <%= render :partial => "shared/about_menu" %>
+  </nav>
+  <div class="primary">
+    <h1 id="summary"><%=t :about %></h1>
+    <p><%=t :about_commitment %></p>
+  </div>
+<% end %>
+
+<div class="content-wrapper">
+  <div class="primary">
+    <p><strong><%=t :about_contest %></strong></p>
+  
+    <h2><%=t :rules_summary %></h2>
+    <%=t :rules_summary_body %>
+    <p><a href="/<%= I18n.locale %>/about/rules"><%=t :rules_view %></a></p>
+  
+    <hr>
+  
+    <h2 id="dates"><%=t :important_dates %></h2>
+    <%= render :partial => "shared/dates" %>
+  
+    <hr>
+  
+    <h2 id="categories"><%=t :categories %></h2>
+    <p><%=t :categories_body %></p>
+    <%= render :partial => "shared/categories" %>
+  
+    <hr>
+  
+    <h2 id="prizes"><%=t :prizes %></h2>
+    <%=t :prizes_body %>
+  
+    <table summary="<%=t :prizes_table_summary %>">
+      <thead>
+        <tr>
+          <th scope="col" class="prize"><%=t :prize %></th>
+          <th scope="col"><%=t :count %></th>
+          <th scope="col"><%=t :category %> 1</th>
+          <th scope="col"><%=t :category %> 2</th>
+          <th scope="col"><%=t :category %> 3</th>
+          <th scope="col"><%=t :category %> 4</th>
+          <th scope="col"><%=t :category %> 5</th>
+          <th scope="col" class="total"><%=t :total %></th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th scope="row" class="total"><%=t :total %></th>
+          <td>19</td>
+          <td><%=t :dollar_before %>8000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>8000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>8000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>8000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>8000<%=t :dollar_after %></td>
+          <td class="total grand"><%=t :dollar_before %>50&nbsp;000<%=t :dollar_after %></td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th scope="row"><%=t :gold %></th>
+          <td>5</td>
+          <td><%=t :dollar_before %>5000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>5000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>5000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>5000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>5000<%=t :dollar_after %></td>
+          <td class="total"><%=t :dollar_before %>25&nbsp;000<%=t :dollar_after %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%=t :silver %></th>
+          <td>5</td>
+          <td><%=t :dollar_before %>2000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>2000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>2000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>2000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>2000<%=t :dollar_after %></td>
+          <td class="total"><%=t :dollar_before %>10&nbsp;000<%=t :dollar_after %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%=t :bronze %></th>
+          <td>5</td>
+          <td><%=t :dollar_before %>1000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>1000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>1000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>1000<%=t :dollar_after %></td>
+          <td><%=t :dollar_before %>1000<%=t :dollar_after %></td>
+          <td class="total"><%=t :dollar_before %>5000<%=t :dollar_after %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%=t :best_overall %></th>
+          <td>1</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="total"><%=t :dollar_before %>3000<%=t :dollar_after %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%=t :best_student %></th>
+          <td>1</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="total"><%=t :dollar_before %>3000<%=t :dollar_after %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%=t :peoples_choice %></th>
+          <td>1</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="total"><%=t :dollar_before %>2000<%=t :dollar_after %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%=t :draw_prizes%></th>
+          <td>3</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="total"><%=t :dollar_before %>1500<%=t :dollar_after %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%=t :giveaways %></th>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="total"><%=t :dollar_before %>500<%=t :dollar_after %></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <h3><%=t :award_criteria %></h3>
+    <%=t :award_criteria_body %>
+  
+    <hr>
+  
+    <h2 id="judges"><%=t :judges %></h2>
+    <%=t :judges_body %>
+  </div>
+</div>
